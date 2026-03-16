@@ -1,26 +1,33 @@
 
-# LITERATURA MEDIEVAL — 3º ESO · VERSIÓN 4
+# Literatura Medieval — App de estudio (3º ESO)
 
-Cambios principales:
-- 15 preguntas por bloque
-- el modo examen ahora marca la opción elegida
-- al corregir el examen general indica ✔ correcta o ✖ incorrecta
-- cada pregunta del examen general muestra explicación
-- se mantienen todos los módulos anteriores
+Versión 7 de la aplicación educativa.
 
-## Archivos
-- index.html
-- style.css
-- app.js
-- data.js
+## Incluye
+- Modo examen funcional
+- Selección de respuestas visual
+- Corrección automática
+- Nota final
+- Diseño simple para móvil
 
+## Archivos del proyecto
+index.html  
+style.css  
+data.js  
+app.js  
+README.md  
 
-## Versión 5
-- El modo examen ahora marca visualmente la opción elegida antes de corregir.
-- Al corregir, cada pregunta del examen indica ✔ correcta o ✖ incorrecta y muestra explicación.
-- Se mantienen las 15 preguntas por bloque.
+## Cómo subir a GitHub
 
+1. Entra en tu repositorio.
+2. Sube los 5 archivos.
+3. Haz **Commit changes**.
+4. Abre la página y recarga con **Ctrl + F5**.
 
-## Versión 6
-- Se han puesto manejadores directos `onclick` para que el modo examen funcione incluso si fallan los eventos delegados.
-- El botón MODO EXAMEN del menú también navega de forma directa.
+## Uso
+
+1. Elige número de preguntas.
+2. Pulsa **Aplicar**.
+3. Responde.
+4. Pulsa **Corregir examen** para ver la nota.
+

@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LITERATURA MEDIEVAL — 3º ESO · V4</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Literatura Medieval 3º ESO</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="app"></div>
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+<div class="container">
+<h1>Literatura Medieval — 3º ESO (Versión 7)</h1>
+
+<div class="exam-controls">
+<label>Preguntas del examen:</label>
+<input type="number" id="numQuestions" value="20">
+<button onclick="startExam()">Aplicar</button>
+<button onclick="gradeExam()">Corregir examen</button>
+<button onclick="resetExam()">Reiniciar</button>
+</div>
+
+<div id="exam"></div>
+<div id="score"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
