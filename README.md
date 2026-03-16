@@ -1,32 +1,23 @@
 
-# LITERATURA MEDIEVAL — 3º ESO
+# LITERATURA MEDIEVAL — 3º ESO · VERSIÓN 3
 
-Archivos listos para subir a GitHub Pages:
+Incluye:
+- portada tipo pergamino
+- iconos medievales
+- bloques más llamativos
+- mejor aspecto en móvil
+- barra de progreso por bloque
+- modo examen configurable
+- repaso inteligente
+- estadísticas de aprendizaje
+
+## Archivos
 - index.html
 - style.css
 - app.js
 - data.js
 
-## Qué incluye
-- Portada clara
-- Esquema general del tema
-- Bloques por POESÍA, PROSA, TEATRO y TÉCNICA LITERARIA
-- Cuaderno del Medievo (desbloqueo del quiz por trabajo en papel)
-- Análisis de texto con cuadro de escritura y modelo
-- Quiz por bloque
-- Repaso de errores
-- Quiz final
-
-## Cómo subirlo a GitHub
-1. Crea un repositorio nuevo en GitHub.
-2. Sube estos 4 archivos.
-3. Ve a Settings > Pages.
-4. En Build and deployment, elige Deploy from a branch.
-5. Selecciona la rama main y la carpeta /root.
-6. Guarda.
-
-
-## Versión revisada
-- Las pestañas del bloque muestran el contenido dentro de la misma tarjeta.
-- Al pulsar una pestaña, la app hace scroll hasta el contenido activo.
-- La sección activa se marca con “ESTÁS EN: ...” para que el alumnado vea claramente dónde está.
+## Cómo subir a GitHub
+1. Sustituye los archivos antiguos por estos.
+2. Haz Commit changes.
+3. Espera unos segundos y recarga GitHub Pages.
