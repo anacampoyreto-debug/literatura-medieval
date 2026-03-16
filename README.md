@@ -1,23 +1,15 @@
 
-# LITERATURA MEDIEVAL — 3º ESO · VERSIÓN 2
+# LITERATURA MEDIEVAL — 3º ESO · VERSIÓN 4
 
-Incluye:
-- diseño tipo enciclopedia medieval
-- barra de progreso por bloque
-- modo examen configurable
-- repaso inteligente de preguntas falladas
-- estadísticas de aprendizaje
-- 15 bloques con 10 preguntas por bloque
-- examen final con hasta 50 preguntas
+Cambios principales:
+- 15 preguntas por bloque
+- el modo examen ahora marca la opción elegida
+- al corregir el examen general indica ✔ correcta o ✖ incorrecta
+- cada pregunta del examen general muestra explicación
+- se mantienen todos los módulos anteriores
 
 ## Archivos
 - index.html
 - style.css
 - app.js
 - data.js
-
-## Cómo subir a GitHub
-1. Crea un repositorio o usa el actual.
-2. Sustituye estos archivos por los nuevos.
-3. Ve a Settings > Pages.
-4. Publica desde main /root.
