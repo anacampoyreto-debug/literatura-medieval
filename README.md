@@ -19,3 +19,8 @@ Cambios principales:
 - El modo examen ahora marca visualmente la opción elegida antes de corregir.
 - Al corregir, cada pregunta del examen indica ✔ correcta o ✖ incorrecta y muestra explicación.
 - Se mantienen las 15 preguntas por bloque.
+
+
+## Versión 6
+- Se han puesto manejadores directos `onclick` para que el modo examen funcione incluso si fallan los eventos delegados.
+- El botón MODO EXAMEN del menú también navega de forma directa.
