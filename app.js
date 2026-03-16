@@ -5,22 +5,23 @@ const state = {
   blockId:1,
   tab:"esquema",
   search:"",
-  unlocked: JSON.parse(localStorage.getItem("lmv3_unlocked") || "{}"),
-  quizResults: JSON.parse(localStorage.getItem("lmv3_quiz_results") || "{}"),
-  finalAnswers: JSON.parse(localStorage.getItem("lmv3_final_answers") || "{}"),
-  finalSubmitted: JSON.parse(localStorage.getItem("lmv3_final_submitted") || "false"),
-  examCount: Number(localStorage.getItem("lmv3_exam_count") || 20),
-  smartReviewQueue: JSON.parse(localStorage.getItem("lmv3_review_queue") || "[]")
+  unlocked: JSON.parse(localStorage.getItem("lmv2_unlocked") || "{}"),
+  quizResults: JSON.parse(localStorage.getItem("lmv2_quiz_results") || "{}"),
+  finalAnswers: JSON.parse(localStorage.getItem("lmv2_final_answers") || "{}"),
+  finalSubmitted: JSON.parse(localStorage.getItem("lmv2_final_submitted") || "false"),
+  examCount: Number(localStorage.getItem("lmv2_exam_count") || 20),
+  smartReviewQueue: JSON.parse(localStorage.getItem("lmv2_review_queue") || "[]")
 };
 
 function saveState(){
-  localStorage.setItem("lmv3_unlocked", JSON.stringify(state.unlocked));
-  localStorage.setItem("lmv3_quiz_results", JSON.stringify(state.quizResults));
-  localStorage.setItem("lmv3_final_answers", JSON.stringify(state.finalAnswers));
-  localStorage.setItem("lmv3_final_submitted", JSON.stringify(state.finalSubmitted));
-  localStorage.setItem("lmv3_exam_count", String(state.examCount));
-  localStorage.setItem("lmv3_review_queue", JSON.stringify(state.smartReviewQueue));
+  localStorage.setItem("lmv2_unlocked", JSON.stringify(state.unlocked));
+  localStorage.setItem("lmv2_quiz_results", JSON.stringify(state.quizResults));
+  localStorage.setItem("lmv2_final_answers", JSON.stringify(state.finalAnswers));
+  localStorage.setItem("lmv2_final_submitted", JSON.stringify(state.finalSubmitted));
+  localStorage.setItem("lmv2_exam_count", String(state.examCount));
+  localStorage.setItem("lmv2_review_queue", JSON.stringify(state.smartReviewQueue));
 }
+
 function getBlock(id){ return APP_DATA.blocks.find(b => b.id === id); }
 function getQuizResults(blockId){ return state.quizResults[blockId] || {}; }
 function getCorrectCount(blockId){
@@ -34,19 +35,31 @@ function getMistakes(blockId){
   return block.quiz.map((q, idx) => ({q, idx, chosen: results[idx], blockId:block.id, blockTitle:block.title}))
     .filter(item => item.chosen !== undefined && Number(item.chosen) !== item.q.answer);
 }
-function getAllMistakes(){ return APP_DATA.blocks.flatMap(b => getMistakes(b.id)); }
+function getAllMistakes(){
+  return APP_DATA.blocks.flatMap(b => getMistakes(b.id));
+}
 function totalQuestions(){ return APP_DATA.blocks.reduce((acc,b)=>acc+b.quiz.length,0); }
-function totalCorrect(){ return APP_DATA.blocks.reduce((acc,b)=>acc+getCorrectCount(b.id),0); }
-function completedBlocks(){ return APP_DATA.blocks.filter(b => getCorrectCount(b.id) === b.quiz.length).length; }
+function totalCorrect(){
+  return APP_DATA.blocks.reduce((acc,b)=>acc+getCorrectCount(b.id),0);
+}
+function completedBlocks(){
+  return APP_DATA.blocks.filter(b => getCorrectCount(b.id) === b.quiz.length).length;
+}
 function accuracy(){
   const answered = APP_DATA.blocks.reduce((acc,b)=>acc+Object.keys(getQuizResults(b.id)).length,0);
-  return answered ? Math.round((totalCorrect()/answered)*100) : 0;
+  if(!answered) return 0;
+  return Math.round((totalCorrect()/answered)*100);
 }
 function updateSmartReviewQueue(){
-  state.smartReviewQueue = getAllMistakes().map(m => ({
-    blockId:m.blockId, blockTitle:m.blockTitle,
-    q:m.q.q, options:m.q.options, answer:m.q.answer, explanation:m.q.explanation
+  const mistakes = getAllMistakes().map(m => ({
+    blockId: m.blockId,
+    blockTitle: m.blockTitle,
+    q: m.q.q,
+    options: m.q.options,
+    answer: m.q.answer,
+    explanation: m.q.explanation
   }));
+  state.smartReviewQueue = mistakes;
   saveState();
 }
 function setView(view, blockId=null){
@@ -55,16 +68,8 @@ function setView(view, blockId=null){
   render();
   window.scrollTo({top:0, behavior:"smooth"});
 }
-function examQuestions(){ return APP_DATA.final_quiz.slice(0, state.examCount); }
-
-function iconFor(section){
-  const map = {
-    "POESÍA":"🪶",
-    "PROSA":"📜",
-    "TEATRO":"🎭",
-    "TÉCNICA LITERARIA":"🛡️"
-  };
-  return map[section] || "📚";
+function finalQuestions(){
+  return APP_DATA.final_quiz.slice(0, state.examCount);
 }
 
 function render(){
@@ -86,18 +91,13 @@ function render(){
 function renderHero(){
   return `<section class="hero">
     <div class="hero-badges">
-      <span class="badge">VERSIÓN 3</span>
-      <span class="badge">PERGAMINO VISUAL</span>
-      <span class="badge">MÓVIL MEJORADO</span>
+      <span class="badge">VERSIÓN 2</span>
+      <span class="badge">ENCICLOPEDIA MEDIEVAL</span>
+      <span class="badge">MODO EXAMEN</span>
       <span class="badge">REPASO INTELIGENTE</span>
     </div>
-    <div class="hero-title">
-      <div class="hero-icon">📜</div>
-      <div>
-        <h1>${APP_DATA.title}</h1>
-        <p>${APP_DATA.subtitle}</p>
-      </div>
-    </div>
+    <h1>${APP_DATA.title}</h1>
+    <p>${APP_DATA.subtitle}</p>
     <div class="hero-actions">
       <button class="btn btn-primary" data-go="scheme">ESQUEMA GENERAL</button>
       <button class="btn btn-secondary" data-go="block" data-block="1">IR AL BLOQUE 1</button>
@@ -111,17 +111,17 @@ function renderSidebar(){
   const sections = ["POESÍA","PROSA","TEATRO","TÉCNICA LITERARIA"];
   const filtered = APP_DATA.blocks.filter(b => (`${b.title} ${b.author} ${b.work} ${b.section}`).toLowerCase().includes(state.search.toLowerCase()));
   return `<aside class="sidebar">
-    <h3>🏰 MENÚ</h3>
+    <h3>MENÚ</h3>
     <div class="logic"><strong>RUTA:</strong><br>ESQUEMA → CUADERNO → ANÁLISIS → QUIZ → ERRORES → EXAMEN → REPASO</div>
     <input class="search" id="searchBlocks" placeholder="Buscar bloque, autor u obra" value="${(state.search||"").replace(/"/g,'&quot;')}">
-    <button class="menu-btn ${state.view==="home"?"active":""}" data-view="home">🏠 INICIO</button>
-    <button class="menu-btn ${state.view==="scheme"?"active":""}" data-view="scheme">🗺️ ESQUEMA GENERAL</button>
-    <button class="menu-btn ${state.view==="stats"?"active":""}" data-view="stats">📊 ESTADÍSTICAS</button>
-    <button class="menu-btn ${state.view==="exam"?"active":""}" data-view="exam">📝 MODO EXAMEN</button>
-    <button class="menu-btn ${state.view==="review"?"active":""}" data-view="review">🔁 REPASO INTELIGENTE</button>
-    <button class="menu-btn ${state.view==="errors"?"active":""}" data-view="errors">❌ REPASO DE ERRORES</button>
+    <button class="menu-btn ${state.view==="home"?"active":""}" data-view="home">INICIO</button>
+    <button class="menu-btn ${state.view==="scheme"?"active":""}" data-view="scheme">ESQUEMA GENERAL</button>
+    <button class="menu-btn ${state.view==="stats"?"active":""}" data-view="stats">ESTADÍSTICAS</button>
+    <button class="menu-btn ${state.view==="exam"?"active":""}" data-view="exam">MODO EXAMEN</button>
+    <button class="menu-btn ${state.view==="review"?"active":""}" data-view="review">REPASO INTELIGENTE</button>
+    <button class="menu-btn ${state.view==="errors"?"active":""}" data-view="errors">REPASO DE ERRORES</button>
     ${sections.map(section => `
-      <div class="section-title">${iconFor(section)} ${section}</div>
+      <div class="section-title">${section}</div>
       <div class="menu-list">
         ${filtered.filter(b => b.section===section).map(b => `
           <button class="menu-btn ${state.view==="block" && state.blockId===b.id ? "active":""}" data-view="block" data-block="${b.id}">
@@ -134,39 +134,41 @@ function renderSidebar(){
   </aside>`;
 }
 
-function renderStats(){
-  const answered = APP_DATA.blocks.reduce((acc,b)=>acc+Object.keys(getQuizResults(b.id)).length,0);
+function renderHome(){
   return `<section class="panel">
-    <h2>📊 ESTADÍSTICAS DE APRENDIZAJE</h2>
+    <h2>PORTADA DE ESTUDIO</h2>
+    <div class="overview-grid">
+      <div class="card"><h3>ESQUEMA GENERAL</h3><p>Visualiza primero todo el tema como si fuera un mapa.</p></div>
+      <div class="card"><h3>CUADERNO DEL MEDIEVO</h3><p>Para desbloquear el quiz hay que trabajar en papel.</p></div>
+      <div class="card"><h3>MODO EXAMEN</h3><p>Simula un examen real con puntuación automática.</p></div>
+      <div class="card"><h3>REPASO INTELIGENTE</h3><p>La app repite automáticamente las preguntas falladas.</p></div>
+    </div>
+  </section>
+  ${renderStatsPanel()}`;
+}
+
+function renderStatsPanel(){
+  const answered = APP_DATA.blocks.reduce((acc,b)=>acc+Object.keys(getQuizResults(b.id)).length,0);
+  const total = totalQuestions();
+  return `<section class="panel">
+    <h2>ESTADÍSTICAS DE APRENDIZAJE</h2>
     <div class="stats-grid">
       <div class="card"><div class="footer-note">ACIERTOS TOTALES</div><div class="big-stat">${totalCorrect()}</div></div>
-      <div class="card"><div class="footer-note">RESPONDIDAS</div><div class="big-stat">${answered}/${totalQuestions()}</div></div>
+      <div class="card"><div class="footer-note">PREGUNTAS RESPONDIDAS</div><div class="big-stat">${answered}/${total}</div></div>
       <div class="card"><div class="footer-note">PRECISIÓN</div><div class="big-stat">${accuracy()}%</div></div>
       <div class="card"><div class="footer-note">BLOQUES COMPLETOS</div><div class="big-stat">${completedBlocks()}/${APP_DATA.blocks.length}</div></div>
     </div>
   </section>`;
 }
 
-function renderHome(){
-  return `<section class="panel">
-    <h2>✨ PORTADA DE ESTUDIO</h2>
-    <div class="overview-grid">
-      <div class="card"><h3>📜 ESQUEMA GENERAL</h3><p>Mira el mapa completo del tema antes de empezar.</p></div>
-      <div class="card"><h3>🖍️ CUADERNO DEL MEDIEVO</h3><p>Para desbloquear el quiz hay que escribir en papel.</p></div>
-      <div class="card"><h3>📝 MODO EXAMEN</h3><p>Simula un examen real con nota automática.</p></div>
-      <div class="card"><h3>🔁 REPASO INTELIGENTE</h3><p>Repite automáticamente las preguntas falladas.</p></div>
-    </div>
-  </section>
-  ${renderStats()}`;
-}
-
 function renderScheme(){
   return `<section class="panel">
-    <h2>🗺️ ESQUEMA GENERAL DEL TEMA</h2>
+    <h2>ESQUEMA GENERAL DEL TEMA</h2>
+    <p class="footer-note">Mira primero este mapa del tema para situarte.</p>
     <div class="scheme-grid">
       ${Object.entries(APP_DATA.theme_scheme).map(([section, items]) => `
         <div class="card">
-          <h3>${iconFor(section)} ${section}</h3>
+          <h3>${section}</h3>
           <ul>${items.map(i => `<li>${i}</li>`).join("")}</ul>
         </div>
       `).join("")}
@@ -179,7 +181,7 @@ function renderBlock(){
   return `<section class="panel">
     <div class="block-header">
       <div>
-        <div class="footer-note">${iconFor(b.section)} ${b.section}</div>
+        <div class="footer-note">${b.section}</div>
         <h2>BLOQUE ${b.id} — ${b.title}</h2>
         ${b.author ? `<div class="footer-note">AUTOR: <strong>${b.author}</strong></div>` : ""}
         ${b.work ? `<div class="footer-note">OBRA: <strong>${b.work}</strong></div>` : ""}
@@ -192,11 +194,11 @@ function renderBlock(){
       </div>
     </div>
     <div class="tabs">
-      <button class="tab-btn ${state.tab==="esquema"?"active":""}" data-tab="esquema">📌 ESQUEMA</button>
-      <button class="tab-btn ${state.tab==="cuaderno"?"active":""}" data-tab="cuaderno">🖍️ CUADERNO</button>
-      <button class="tab-btn ${state.tab==="analisis"?"active":""}" data-tab="analisis">🔍 ANALIZA EL TEXTO</button>
-      <button class="tab-btn ${state.tab==="quiz"?"active":""}" data-tab="quiz">✅ QUIZ</button>
-      <button class="tab-btn ${state.tab==="errores"?"active":""}" data-tab="errores">❌ ERRORES</button>
+      <button class="tab-btn ${state.tab==="esquema"?"active":""}" data-tab="esquema">ESQUEMA</button>
+      <button class="tab-btn ${state.tab==="cuaderno"?"active":""}" data-tab="cuaderno">CUADERNO</button>
+      <button class="tab-btn ${state.tab==="analisis"?"active":""}" data-tab="analisis">ANALIZA EL TEXTO</button>
+      <button class="tab-btn ${state.tab==="quiz"?"active":""}" data-tab="quiz">QUIZ</button>
+      <button class="tab-btn ${state.tab==="errores"?"active":""}" data-tab="errores">ERRORES</button>
     </div>
     ${renderBlockTab(b, unlocked)}
   </section>`;
@@ -207,7 +209,7 @@ function renderBlockTab(b, unlocked){
     return `<div class="tab-content">
       <div class="tab-label">ESTÁS EN: ESQUEMA</div>
       <ul>${b.scheme.map(item => `<li>${item}</li>`).join("")}</ul>
-      <div class="card" style="margin-top:12px"><strong>📜 TEXTO O EJEMPLO:</strong><p>${b.fragment}</p></div>
+      <div class="card" style="margin-top:12px"><strong>TEXTO O EJEMPLO:</strong><p>${b.fragment}</p></div>
     </div>`;
   }
   if(state.tab==="cuaderno"){
@@ -216,13 +218,15 @@ function renderBlockTab(b, unlocked){
       <div class="notice">SIN CUADERNO NO HAY QUIZ. Primero copia, subraya y resume.</div>
       <div class="notebook-list">${b.notebook.map(item => `<div class="notebook-item">✏️ ${item}</div>`).join("")}</div>
       <div class="hint"><strong>CÓMO RESPONDER:</strong> ${b.writing_prompt}</div>
-      <div class="actions"><button class="btn btn-primary" data-unlock="${b.id}">${unlocked ? "✔ CUADERNO REGISTRADO" : "YA LO HE HECHO"}</button></div>
+      <div class="actions">
+        <button class="btn btn-primary" data-unlock="${b.id}">${unlocked ? "✔ CUADERNO REGISTRADO" : "YA LO HE HECHO"}</button>
+      </div>
     </div>`;
   }
   if(state.tab==="analisis"){
     return `<div class="tab-content">
       <div class="tab-label">ESTÁS EN: ANALIZA EL TEXTO</div>
-      <div class="card"><strong>📜 TEXTO:</strong><p>${b.fragment}</p></div>
+      <div class="card"><strong>TEXTO:</strong><p>${b.fragment}</p></div>
       <p><strong>PREGUNTA:</strong> ${b.analysis_question}</p>
       <div class="hint">${b.writing_prompt}</div>
       <textarea id="analysisInput" placeholder="Escribe tu respuesta aquí..."></textarea>
@@ -281,7 +285,7 @@ function renderBlockTab(b, unlocked){
 function renderErrors(){
   const all = getAllMistakes();
   return `<section class="panel">
-    <h2>❌ REPASO DE ERRORES</h2>
+    <h2>REPASO DE ERRORES</h2>
     ${all.length ? all.map(item => `<div class="mistake-card" style="margin-bottom:12px">
       <div class="footer-note">BLOQUE ${item.blockId} — ${item.blockTitle}</div>
       <p><strong>${item.q.q}</strong></p>
@@ -294,8 +298,8 @@ function renderErrors(){
 function renderReview(){
   const queue = state.smartReviewQueue;
   return `<section class="panel">
-    <h2>🔁 REPASO INTELIGENTE</h2>
-    <p>Las preguntas falladas aparecen aquí hasta que las aciertes.</p>
+    <h2>REPASO INTELIGENTE</h2>
+    <p>Esta sección repite automáticamente las preguntas falladas hasta que las aprendas.</p>
     ${queue.length ? `<div class="review-list">
       ${queue.slice(0, 12).map((q, idx) => `
         <div class="quiz-card">
@@ -306,18 +310,18 @@ function renderReview(){
           </div>
         </div>
       `).join("")}
-    </div>` : `<div class="card">No hay preguntas pendientes de repaso. ¡Magnífico!</div>`}
+    </div>` : `<div class="card">No hay preguntas pendientes de repaso. ¡Vas genial!</div>`}
   </section>`;
 }
 
 function renderExam(){
-  const questions = examQuestions();
+  const questions = finalQuestions();
   const score = state.finalSubmitted ? questions.reduce((acc,q,idx)=>acc + (Number(state.finalAnswers[idx])===q.answer ? 1 : 0),0) : 0;
   return `<section class="panel">
-    <h2>📝 MODO EXAMEN</h2>
+    <h2>MODO EXAMEN</h2>
     <div class="exam-setup">
       <div class="card"><div class="footer-note">PREGUNTAS</div><input type="number" id="examCount" min="10" max="50" value="${state.examCount}"></div>
-      <div class="card"><div class="footer-note">SIMULACIÓN</div><p>Configura cuántas preguntas quieres para tu examen.</p></div>
+      <div class="card"><div class="footer-note">EXAMEN REAL</div><p>Configura cuántas preguntas quieres.</p></div>
       <div class="card"><div class="footer-note">NOTA</div><div class="big-stat">${state.finalSubmitted ? score + "/" + questions.length : "--"}</div></div>
     </div>
     <div class="actions">
@@ -355,7 +359,7 @@ function renderMain(){
   if(state.view==="errors") return renderErrors();
   if(state.view==="review") return renderReview();
   if(state.view==="exam") return renderExam();
-  if(state.view==="stats") return renderStats();
+  if(state.view==="stats") return renderStatsPanel();
   return renderHome();
 }
 
@@ -374,8 +378,16 @@ function bindEvents(){
   });
   const search = document.getElementById("searchBlocks");
   if(search) search.oninput = e => { state.search = e.target.value; render(); };
-  document.querySelectorAll("[data-tab]").forEach(btn => btn.onclick = () => { state.tab = btn.dataset.tab; render(); });
-  document.querySelectorAll("[data-unlock]").forEach(btn => btn.onclick = () => { state.unlocked[Number(btn.dataset.unlock)] = true; saveState(); state.tab="quiz"; render(); });
+  document.querySelectorAll("[data-tab]").forEach(btn => btn.onclick = () => {
+    state.tab = btn.dataset.tab;
+    render();
+  });
+  document.querySelectorAll("[data-unlock]").forEach(btn => btn.onclick = () => {
+    state.unlocked[Number(btn.dataset.unlock)] = true;
+    saveState();
+    state.tab = "quiz";
+    render();
+  });
   const toggleModel = document.querySelector("[data-toggle-model]");
   if(toggleModel) toggleModel.onclick = () => {
     const model = document.getElementById("analysisModel");
@@ -425,4 +437,5 @@ function bindEvents(){
   const resetExam = document.getElementById("resetExam");
   if(resetExam) resetExam.onclick = () => { state.finalAnswers = {}; state.finalSubmitted = false; saveState(); render(); };
 }
+
 render();

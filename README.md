@@ -1,15 +1,14 @@
 
-# LITERATURA MEDIEVAL — 3º ESO · VERSIÓN 3
+# LITERATURA MEDIEVAL — 3º ESO · VERSIÓN 2
 
 Incluye:
-- portada tipo pergamino
-- iconos medievales
-- bloques más llamativos
-- mejor aspecto en móvil
+- diseño tipo enciclopedia medieval
 - barra de progreso por bloque
 - modo examen configurable
-- repaso inteligente
+- repaso inteligente de preguntas falladas
 - estadísticas de aprendizaje
+- 15 bloques con 10 preguntas por bloque
+- examen final con hasta 50 preguntas
 
 ## Archivos
 - index.html
@@ -18,6 +17,7 @@ Incluye:
 - data.js
 
 ## Cómo subir a GitHub
-1. Sustituye los archivos antiguos por estos.
-2. Haz Commit changes.
-3. Espera unos segundos y recarga GitHub Pages.
+1. Crea un repositorio o usa el actual.
+2. Sustituye estos archivos por los nuevos.
+3. Ve a Settings > Pages.
+4. Publica desde main /root.

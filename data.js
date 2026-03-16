@@ -1,6 +1,6 @@
 window.APP_DATA = {
   "title": "LITERATURA MEDIEVAL — 3º ESO",
-  "subtitle": "VERSIÓN 3 · PERGAMINO VISUAL · MÓVIL MEJORADO · EXAMEN · REPASO INTELIGENTE",
+  "subtitle": "VERSIÓN 2 · ENCICLOPEDIA MEDIEVAL · PROGRESO · EXAMEN · REPASO INTELIGENTE · ESTADÍSTICAS",
   "theme_scheme": {
     "POESÍA": [
       "POESÍA POPULAR LÍRICA",
@@ -341,114 +341,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "¿Quién es el protagonista del CANTAR DE MIO CID?",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "CALISTO",
+            "RODRIGO DÍAZ DE VIVAR",
+            "DON JUAN MANUEL",
+            "JORGE MANRIQUE"
           ],
-          "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "answer": 1,
+          "explanation": "El protagonista es RODRIGO DÍAZ DE VIVAR."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "El tema central del poema es:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "La ciencia",
+            "El honor",
+            "La política",
+            "La alquimia"
           ],
-          "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "answer": 1,
+          "explanation": "El tema central es el honor."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "La primera parte del poema es:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "Afrenta de Corpes",
+            "Destierro",
+            "Las bodas",
+            "La moraleja"
           ],
-          "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "answer": 1,
+          "explanation": "La primera parte es el destierro."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "La última parte del poema es:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "El destierro",
+            "La afrenta de Corpes",
+            "Las jarchas",
+            "La cuaderna vía"
           ],
-          "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "answer": 1,
+          "explanation": "La última parte es la afrenta de Corpes."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "«¡Dios, qué buen vasallo si tuviese buen señor!» expresa:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "Honor del héroe",
+            "Tema científico",
+            "Humor burlesco",
+            "Amor cortés"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "Destaca el valor del héroe y el honor."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "El Cid es un héroe:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Fantástico",
+            "Realista",
+            "Mitológico",
+            "Inexistente"
           ],
-          "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "answer": 1,
+          "explanation": "Se presenta como un héroe realista y humano."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "El poema pertenece al género:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "Épico",
+            "Dramático",
+            "Ensayístico",
+            "Científico"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
+          "explanation": "Es una obra épica."
         },
         {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+          "q": "Una parte del poema trata sobre:",
           "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
+            "Las bodas",
+            "La imprenta",
+            "El teatro moderno",
+            "La novela picaresca"
           ],
           "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
+          "explanation": "Una parte es el cantar de las bodas."
         },
         {
-          "q": "Este bloque forma parte de:",
+          "q": "El Cid busca recuperar:",
           "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
+            "Su honor",
+            "Un castillo de ciencia",
+            "Una universidad",
+            "Un periódico"
           ],
           "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
+          "explanation": "Quiere recuperar su honor."
         },
         {
-          "q": "La mejor forma de dominar este bloque es:",
+          "q": "El autor del CANTAR DE MIO CID es:",
           "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
+            "ANÓNIMO",
+            "BERCEO",
+            "FERNANDO DE ROJAS",
+            "MANRIQUE"
           ],
           "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "La obra es de autor anónimo."
         }
       ]
     },
@@ -483,114 +483,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "Los romances son poemas:",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "Narrativos breves",
+            "Ensayos extensos",
+            "Teatrales",
+            "Científicos"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "Son poemas narrativos breves."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "Sus versos suelen ser:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "Octosílabos",
+            "Alejandrinos",
+            "Libres siempre",
+            "Hexasílabos"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "Suelen ser octosílabos."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "La rima habitual es:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "Asonante en pares",
+            "Consonante en todos",
+            "Sin rima",
+            "Consonante en impares"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "La rima es asonante en los pares."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "Muchos romances proceden de:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "Cantares de gesta",
+            "La imprenta",
+            "Novelas realistas",
+            "Obras barrocas"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "Proceden de los cantares de gesta."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "«Que por mayo era, por mayo...» pertenece a un:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "Romance",
+            "Ensayo",
+            "Entremés",
+            "Soneto"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "Es un fragmento de romance."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "El lenguaje de los romances suele ser:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Sencillo",
+            "Muy técnico",
+            "Científico",
+            "Jurídico"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "explanation": "Suele ser sencillo."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "Un romance puede ser:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "Épico o lírico",
+            "Solo científico",
+            "Solo filosófico",
+            "Solo dramático"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
+          "explanation": "Hay romances épicos, líricos, etc."
         },
         {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+          "q": "La musicalidad del romance se debe a:",
           "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
+            "Su rima y ritmo",
+            "A notas musicales escritas",
+            "A dibujos",
+            "A imágenes"
           ],
           "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
+          "explanation": "Se apoya en rima y ritmo."
         },
         {
-          "q": "Este bloque forma parte de:",
+          "q": "La extensión de un romance suele ser:",
           "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
+            "Breve",
+            "Enciclopédica",
+            "Siempre 100 versos",
+            "Igual que una novela"
           ],
           "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
+          "explanation": "Suele ser breve."
         },
         {
-          "q": "La mejor forma de dominar este bloque es:",
+          "q": "Los romances pertenecen a la tradición:",
           "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
+            "Medieval",
+            "Romántica del XIX",
+            "Contemporánea",
+            "Griega clásica"
           ],
           "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "Pertenecen a la tradición medieval."
         }
       ]
     },
@@ -625,114 +625,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "El mester de clerecía es una poesía:",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "Culta",
+            "Popular",
+            "Improvisada",
+            "Digital"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "Es una poesía culta."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "La escribían:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "Clérigos",
+            "Juglares",
+            "Soldados",
+            "Reyes"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "La escribían clérigos cultos."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "Su finalidad principal es:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "Didáctica o religiosa",
+            "Cómica siempre",
+            "Periodística",
+            "Científica"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "Tiene finalidad didáctica o religiosa."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "Sus versos son normalmente de:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "14 sílabas",
+            "8 sílabas",
+            "11 sílabas",
+            "7 sílabas"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "Usa versos alejandrinos de 14 sílabas."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "La estrofa característica es:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "Cuaderna vía",
+            "Romance",
+            "Soneto",
+            "Lira"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "La estrofa es la cuaderna vía."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "Frente al juglar, el clérigo busca:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Enseñar",
+            "Improvisar batalla",
+            "Hacer memes",
+            "Escribir periódicos"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "explanation": "Busca enseñar y transmitir doctrina."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "El lenguaje del mester suele ser:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "Cuidado",
+            "Muy vulgar",
+            "Telegráfico",
+            "Solo técnico"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
+          "explanation": "Es un lenguaje cuidado."
         },
         {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+          "q": "El mester de clerecía pertenece a la:",
           "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
+            "Edad Media",
+            "Ilustración",
+            "Siglo XX",
+            "Vanguardia"
           ],
           "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
+          "explanation": "Es un movimiento medieval."
         },
         {
-          "q": "Este bloque forma parte de:",
+          "q": "La cuaderna vía se relaciona con:",
           "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
+            "Regularidad métrica",
+            "Verso libre",
+            "Prosa poética",
+            "Teatro"
           ],
           "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
+          "explanation": "Supone regularidad métrica."
         },
         {
-          "q": "La mejor forma de dominar este bloque es:",
+          "q": "Un autor del mester de clerecía es:",
           "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
+            "GONZALO DE BERCEO",
+            "FERNANDO DE ROJAS",
+            "DON JUAN MANUEL",
+            "CALISTO"
           ],
           "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "BERCEO es uno de sus principales autores."
         }
       ]
     },
@@ -767,114 +767,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "GONZALO DE BERCEO fue:",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "El primer autor castellano conocido",
+            "Un personaje teatral",
+            "Un rey medieval",
+            "Un juglar anónimo"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "Se considera el primer autor castellano conocido."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "Su obra principal es:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "MILAGROS DE NUESTRA SEÑORA",
+            "LA CELESTINA",
+            "EL CONDE LUCANOR",
+            "CANTAR DE MIO CID"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "Su obra principal es MILAGROS DE NUESTRA SEÑORA."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "Su temática es principalmente:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "Religiosa",
+            "Científica",
+            "Política moderna",
+            "Novelesca"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "Escribe sobre temas religiosos."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "Su lenguaje suele ser:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "Sencillo",
+            "Muy técnico",
+            "Científico",
+            "Telegráfico"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "Usa lenguaje sencillo para enseñar."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "BERCEO pertenece al:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "Mester de clerecía",
+            "Romanticismo",
+            "Teatro barroco",
+            "Siglo XX"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "Pertenece al mester de clerecía."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "«Quiero fer una prosa en román paladino...» muestra voluntad de:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Ser claro",
+            "Confundir",
+            "Escribir ciencia",
+            "Hacer humor moderno"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "explanation": "Busca expresarse con claridad."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "La finalidad de BERCEO es:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "Didáctica",
+            "Publicitaria",
+            "Tecnológica",
+            "Periodística"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
+          "explanation": "Pretende enseñar."
         },
         {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+          "q": "Su público podía comprenderlo gracias a:",
           "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
+            "Lenguaje sencillo",
+            "Latín culto exclusivo",
+            "Jerga científica",
+            "Verso libre"
           ],
           "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
+          "explanation": "Utiliza un lenguaje sencillo."
         },
         {
-          "q": "Este bloque forma parte de:",
+          "q": "BERCEO escribió en lengua:",
           "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
+            "Castellana",
+            "Inglesa",
+            "Italiana",
+            "Alemana"
           ],
           "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
+          "explanation": "Escribe en castellano."
         },
         {
-          "q": "La mejor forma de dominar este bloque es:",
+          "q": "BERCEO destaca en la literatura medieval por ser:",
           "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
+            "Autor conocido y culto",
+            "Autor anónimo",
+            "Autor contemporáneo",
+            "Autor teatral"
           ],
           "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "Destaca por ser autor conocido."
         }
       ]
     },
@@ -908,114 +908,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "El ARCIPRESTE DE HITA escribió:",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "LIBRO DE BUEN AMOR",
+            "LA CELESTINA",
+            "EL CONDE LUCANOR",
+            "MILAGROS DE NUESTRA SEÑORA"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "Es autor del LIBRO DE BUEN AMOR."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "En su obra se mezclan:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "Humor y moral",
+            "Solo guerra",
+            "Solo religión",
+            "Solo ciencia"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "Se mezclan humor y moral."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "Uno de sus temas es:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "El amor",
+            "La ingeniería",
+            "La prensa",
+            "La física"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "El tema amoroso es central."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "La obra contiene:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "Relatos y poemas",
+            "Solo leyes",
+            "Solo teatro",
+            "Solo artículos"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "Incluye relatos y poemas."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "El tono del LIBRO DE BUEN AMOR puede ser:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "Humorístico",
+            "Solo trágico",
+            "Solo épico",
+            "Solo objetivo"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "Tiene tono humorístico en muchas partes."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "El ARCIPRESTE DE HITA pertenece a la literatura:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Medieval",
+            "Renacentista",
+            "Barroca",
+            "Contemporánea"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "explanation": "Pertenece a la Edad Media."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "Su obra no es solo amorosa, también tiene:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "Intención moral",
+            "Experimentos químicos",
+            "Planos de castillos",
+            "Noticias"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
+          "explanation": "La obra tiene intención moral."
         },
         {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+          "q": "«Quien no tiene ventura...» refleja una visión:",
           "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
+            "Reflexiva",
+            "Científica",
+            "Tecnológica",
+            "Periodística"
           ],
           "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
+          "explanation": "Es una reflexión propia de la obra."
         },
         {
-          "q": "Este bloque forma parte de:",
+          "q": "El autor es conocido por su:",
           "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
+            "Originalidad y mezcla de tonos",
+            "Tratado matemático",
+            "Novela policiaca",
+            "Drama clásico griego"
           ],
           "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
+          "explanation": "Su obra es muy original por la mezcla de tonos."
         },
         {
-          "q": "La mejor forma de dominar este bloque es:",
+          "q": "El LIBRO DE BUEN AMOR pertenece al género:",
           "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
+            "Poético-narrativo",
+            "Científico",
+            "Ensayo moderno",
+            "Novela realista"
           ],
           "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "Es una obra compleja de carácter poético-narrativo."
         }
       ]
     },
@@ -1050,114 +1050,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "JORGE MANRIQUE escribió:",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "COPLAS A LA MUERTE DE SU PADRE",
+            "LA CELESTINA",
+            "EL CONDE LUCANOR",
+            "CANTAR DE MIO CID"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "Su obra más conocida son las COPLAS."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "Uno de los temas principales es:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "La muerte",
+            "La tecnología",
+            "La prensa",
+            "El humor absurdo"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "Reflexiona sobre la muerte."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "«Nuestras vidas son los ríos...» contiene una:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "Metáfora",
+            "Hipérbaton",
+            "Ironía",
+            "Onomatopeya"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "Compara la vida con los ríos."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "El tópico 'tempus fugit' significa:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "El tiempo pasa",
+            "Todo se detiene",
+            "La guerra heroica",
+            "El amor feliz"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "Significa que el tiempo pasa rápidamente."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "Otro tópico presente es:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "Muerte igualadora",
+            "Carpe diem exclusivamente",
+            "Locus amoenus",
+            "Beatus ille solamente"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "También aparece la muerte igualadora."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "Las COPLAS son una obra de tono:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Reflexivo",
+            "Cómico burlesco",
+            "Científico",
+            "Periodístico"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "explanation": "Predomina el tono reflexivo."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "JORGE MANRIQUE pertenece a la literatura:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "Medieval",
+            "Vanguardista",
+            "Romántica del XIX",
+            "Clásica griega"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
+          "explanation": "Es un autor medieval."
         },
         {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+          "q": "La imagen del río se relaciona con:",
           "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
+            "El paso de la vida",
+            "La meteorología",
+            "La cocina",
+            "La arquitectura"
           ],
           "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
+          "explanation": "El río simboliza el curso de la vida."
         },
         {
-          "q": "Este bloque forma parte de:",
+          "q": "Las COPLAS son una reflexión sobre:",
           "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
+            "Vida, tiempo y muerte",
+            "Solo la guerra",
+            "Solo el amor cortés",
+            "Solo el teatro"
           ],
           "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
+          "explanation": "Reflexionan sobre vida, tiempo y muerte."
         },
         {
-          "q": "La mejor forma de dominar este bloque es:",
+          "q": "La obra está dedicada a:",
           "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
+            "Su padre",
+            "Su rey",
+            "Su amigo juglar",
+            "Un científico"
           ],
           "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "Está dedicada a la muerte de su padre."
         }
       ]
     },
@@ -1191,114 +1191,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "La prosa medieval castellana se impulsa gracias a:",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "ALFONSO X EL SABIO",
+            "JORGE MANRIQUE",
+            "EL CID",
+            "FERNANDO DE ROJAS"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "ALFONSO X impulsa el uso del castellano en prosa."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "ALFONSO X favorece:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "Traducciones y saber",
+            "Teatro moderno",
+            "Poesía vanguardista",
+            "Prensa digital"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "Impulsa traducciones y textos de saber."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "Una obra vinculada a la prosa medieval es:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "CALILA Y DIMNA",
+            "LA CELESTINA",
+            "LIBRO DE BUEN AMOR",
+            "Jarcha"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "CALILA Y DIMNA pertenece a la prosa medieval."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "La prosa medieval sirve para:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "Transmitir conocimientos",
+            "Solo cantar",
+            "Solo representar en teatro",
+            "Solo improvisar"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "Tiene función didáctica e informativa."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "El desarrollo de la prosa medieval ocurre en la:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "Edad Media",
+            "Ilustración",
+            "Generación del 27",
+            "Siglo XXI"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "Ocurre en la Edad Media."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "ALFONSO X es conocido como:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "EL SABIO",
+            "EL CÓMICO",
+            "EL BARROCO",
+            "EL ROMÁNTICO"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "explanation": "Su sobrenombre es EL SABIO."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "La prosa se diferencia de la poesía porque:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "No está medida en versos",
+            "Siempre rima",
+            "Es teatro",
+            "Es épica heroica"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
+          "explanation": "La prosa no se organiza en versos medidos."
         },
         {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+          "q": "La prosa medieval ayuda a consolidar:",
           "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
+            "El castellano escrito",
+            "El griego clásico",
+            "El francés moderno",
+            "La lengua alemana"
           ],
           "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
+          "explanation": "Ayuda a consolidar el castellano escrito."
         },
         {
-          "q": "Este bloque forma parte de:",
+          "q": "Los textos en prosa medieval podían ser:",
           "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
+            "Históricos y científicos",
+            "Solo chistes",
+            "Solo romances",
+            "Solo teatro"
           ],
           "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
+          "explanation": "Podían ser históricos, científicos y didácticos."
         },
         {
-          "q": "La mejor forma de dominar este bloque es:",
+          "q": "La prosa medieval está muy relacionada con:",
           "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
+            "La cultura escrita",
+            "Solo la oralidad",
+            "El cine",
+            "La radio"
           ],
           "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "Está vinculada a la cultura escrita."
         }
       ]
     },
@@ -1332,114 +1332,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "DON JUAN MANUEL escribió:",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "EL CONDE LUCANOR",
+            "LA CELESTINA",
+            "CANTAR DE MIO CID",
+            "MILAGROS DE NUESTRA SEÑORA"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "Es el autor de EL CONDE LUCANOR."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "Los cuentos de EL CONDE LUCANOR terminan con:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "Moraleja",
+            "Soneto",
+            "Prólogo épico",
+            "Aplauso teatral"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "Terminan con una moraleja."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "El consejero del conde es:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
+            "Patronio",
+            "Calisto",
+            "Melibea",
+            "El Cid"
+          ],
+          "answer": 0,
+          "explanation": "Patronio es el consejero."
+        },
+        {
+          "q": "La estructura típica es:",
+          "options": [
+            "Problema + cuento + moraleja",
+            "Solo poema",
+            "Solo diálogo teatral",
+            "Ensayo libre"
+          ],
+          "answer": 0,
+          "explanation": "Esa es la estructura habitual."
+        },
+        {
+          "q": "La finalidad principal de la obra es:",
+          "options": [
+            "Enseñar",
+            "Solo divertir",
+            "Hacer ciencia",
+            "Crear himnos"
+          ],
+          "answer": 0,
+          "explanation": "Busca enseñar mediante ejemplos."
+        },
+        {
+          "q": "El fragmento «Lo que al principio no parece peligroso...» transmite:",
+          "options": [
+            "Una enseñanza",
+            "Una receta",
             "Una ley física",
-            "Un dato deportivo"
+            "Un chiste"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "Transmite una enseñanza moral."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "EL CONDE LUCANOR pertenece a la:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "Prosa medieval",
+            "Lírica popular",
+            "Teatro renacentista",
+            "Novela contemporánea"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "Pertenece a la prosa medieval."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "DON JUAN MANUEL es un autor:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "Medieval",
+            "Vanguardista",
+            "Realista del XIX",
+            "Contemporáneo"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "Es un autor medieval."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "La moraleja sirve para:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Resumir la enseñanza",
+            "Añadir personajes",
+            "Cambiar de género",
+            "Medir sílabas"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "explanation": "Resume la enseñanza del cuento."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "EL CONDE LUCANOR usa historias con intención:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "Didáctica",
+            "Solo cómica",
+            "Solo científica",
+            "Solo épica"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
-        },
-        {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
-          "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
-          ],
-          "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
-        },
-        {
-          "q": "Este bloque forma parte de:",
-          "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
-          ],
-          "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
-        },
-        {
-          "q": "La mejor forma de dominar este bloque es:",
-          "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
-          ],
-          "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "Tiene intención didáctica."
         }
       ]
     },
@@ -1472,114 +1472,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "El teatro medieval tenía carácter principalmente:",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "Religioso",
+            "Científico",
+            "Tecnológico",
+            "Deportivo"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "Tenía carácter religioso."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "Se representaba en:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
+            "Iglesias o plazas",
+            "Cines",
+            "Televisión",
+            "Institutos modernos"
+          ],
+          "answer": 0,
+          "explanation": "Se representaba en iglesias o plazas."
+        },
+        {
+          "q": "Sus temas podían ser:",
+          "options": [
+            "Bíblicos y morales",
+            "Solo amorosos modernos",
+            "Solo políticos del XIX",
+            "Solo deportivos"
+          ],
+          "answer": 0,
+          "explanation": "Predominaban temas bíblicos y morales."
+        },
+        {
+          "q": "El teatro medieval es un precedente del:",
+          "options": [
+            "Teatro posterior",
+            "Cine",
+            "Podcast",
+            "Periodismo"
+          ],
+          "answer": 0,
+          "explanation": "Fue precedente del teatro posterior."
+        },
+        {
+          "q": "Su función era también:",
+          "options": [
+            "Enseñar",
+            "Hacer experimentos",
+            "Publicar noticias",
+            "Medir versos"
+          ],
+          "answer": 0,
+          "explanation": "Tenía una función didáctica."
+        },
+        {
+          "q": "El teatro medieval pertenece a la:",
+          "options": [
+            "Edad Media",
+            "Ilustración",
             "Siglo XXI",
-            "Realismo"
+            "Generación del 98"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "Pertenece a la Edad Media."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "Las representaciones podían hacerse en espacios:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "Públicos",
+            "Solo digitales",
+            "Solo privados modernos",
+            "Solo deportivos"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "También se hacían en plazas."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "Una característica del teatro medieval es:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "Vinculación religiosa",
+            "Verso libre contemporáneo",
+            "Ciencia ficción",
+            "Uso de cine"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "Está muy vinculado a lo religioso."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "Antes del gran teatro posterior encontramos:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "Manifestaciones medievales",
+            "Telenovelas",
+            "Ensayo político",
+            "Ópera digital"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "El teatro medieval es un precedente."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "El teatro medieval no nace como:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Industria audiovisual",
+            "Representación religiosa",
+            "Acto público",
+            "Manifestación cultural"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
-        },
-        {
-          "q": "El quiz del bloque está pensado para:",
-          "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
-          ],
-          "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
-        },
-        {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
-          "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
-          ],
-          "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
-        },
-        {
-          "q": "Este bloque forma parte de:",
-          "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
-          ],
-          "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
-        },
-        {
-          "q": "La mejor forma de dominar este bloque es:",
-          "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
-          ],
-          "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "No nace como industria audiovisual, claro."
         }
       ]
     },
@@ -1615,114 +1615,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "¿Quién escribió LA CELESTINA?",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "FERNANDO DE ROJAS",
+            "DON JUAN MANUEL",
+            "GONZALO DE BERCEO",
+            "JORGE MANRIQUE"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "La escribió FERNANDO DE ROJAS."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "La obra se presenta como:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "Dialogada",
+            "Poema épico",
+            "Jarcha",
+            "Ensayo"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "Es una obra dialogada."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "Los protagonistas amorosos son:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "CALISTO y MELIBEA",
+            "Patronio y el conde",
+            "El Cid y Jimena",
+            "Berceo y María"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "Los protagonistas son CALISTO y MELIBEA."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "¿Qué personaje interviene entre ellos?",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "CELESTINA",
+            "PATRONIO",
+            "EL CID",
+            "MANRIQUE"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "CELESTINA interviene entre ambos."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "Uno de los temas de LA CELESTINA es:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "La avaricia",
+            "La geometría",
+            "La prensa",
+            "La épica heroica"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "También trata la avaricia."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "El final de la obra es:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Trágico",
+            "Siempre cómico",
+            "Abierto y feliz",
+            "Científico"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "explanation": "El final es trágico."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "«MELIBEA es mi vida...» expresa:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "Amor",
+            "Odio",
+            "Ciencia",
+            "Indiferencia"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
+          "explanation": "Expresa amor."
         },
         {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+          "q": "LA CELESTINA se sitúa entre la Edad Media y:",
           "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
+            "El Renacimiento",
+            "El Barroco",
+            "El Realismo",
+            "La Vanguardia"
           ],
           "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
+          "explanation": "Se considera obra de transición hacia el Renacimiento."
         },
         {
-          "q": "Este bloque forma parte de:",
+          "q": "FERNANDO DE ROJAS es un autor:",
           "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
+            "De transición",
+            "Griego clásico",
+            "Del siglo XXI",
+            "Contemporáneo"
           ],
           "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
+          "explanation": "Se asocia a la transición entre épocas."
         },
         {
-          "q": "La mejor forma de dominar este bloque es:",
+          "q": "CELESTINA destaca por ser:",
           "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
+            "Manipuladora",
+            "Heroína épica",
+            "Científica",
+            "Reina"
           ],
           "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "Es un personaje manipulador."
         }
       ]
     },
@@ -1756,114 +1756,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "La métrica estudia:",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "Sílabas y rima",
+            "Personajes teatrales",
+            "Autores modernos",
+            "Tramas novelescas"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "Estudia las sílabas y la rima."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "Un verso de 8 sílabas es de:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "Arte menor",
+            "Arte mayor",
+            "Prosa",
+            "Teatro"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "Es de arte menor."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "Un verso de 11 sílabas es normalmente de:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "Arte mayor",
+            "Arte menor",
+            "Jarcha",
+            "Ensayo"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "Es de arte mayor."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "Cuenta las sílabas de «La vida pasa veloz»:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "7",
+            "8",
+            "11",
+            "14"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "Se cuenta como verso de 7 sílabas en este ejercicio."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "Cuenta las sílabas de «Nuestras vidas son los ríos»:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "8",
+            "11",
+            "14",
+            "7"
           ],
-          "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "answer": 1,
+          "explanation": "Se considera endecasílabo en este planteamiento."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "La rima asonante repite:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Vocales",
+            "Consonantes y vocales todas",
+            "Solo consonantes",
+            "Nada"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "explanation": "Repite solo vocales a partir de la última vocal acentuada."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "La rima consonante repite:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "Vocales y consonantes",
+            "Solo vocales",
+            "Solo sílabas iniciales",
+            "Nada"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
+          "explanation": "Repite vocales y consonantes."
         },
         {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+          "q": "El análisis métrico sirve para:",
           "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
+            "Estudiar el ritmo del poema",
+            "Medir edificios",
+            "Calcular distancias",
+            "Hacer resúmenes"
           ],
           "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
+          "explanation": "Sirve para estudiar el ritmo."
         },
         {
-          "q": "Este bloque forma parte de:",
+          "q": "Si un verso tiene más de 8 sílabas es de:",
           "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
+            "Arte mayor",
+            "Arte menor",
+            "Romance",
+            "Jarcha"
           ],
           "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
+          "explanation": "Más de 8 sílabas: arte mayor."
         },
         {
-          "q": "La mejor forma de dominar este bloque es:",
+          "q": "La métrica se aplica a:",
           "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
+            "Los versos",
+            "Las noticias",
+            "Los mapas",
+            "Los experimentos"
           ],
           "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "Se aplica a los versos."
         }
       ]
     },
@@ -1897,114 +1897,114 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "«Tus ojos son estrellas» contiene:",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "Metáfora",
+            "Anáfora",
+            "Hipérbaton",
+            "Elipsis"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "Es una metáfora."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "«Tus ojos brillan como estrellas» contiene:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "Comparación",
+            "Metáfora",
+            "Hipérbole",
+            "Anáfora"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "Usa 'como', por eso es comparación."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "«Corre, corre, corre el río» contiene:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "Anáfora",
+            "Metáfora",
+            "Ironía",
+            "Antítesis"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "Se repite una palabra al comienzo."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "«Te llamé mil veces» contiene:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "Hipérbole",
+            "Metáfora",
+            "Comparación",
+            "Sinécdoque"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "Es una exageración, hipérbole."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "«El viento cantaba» contiene:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "Personificación",
+            "Metáfora",
+            "Anáfora",
+            "Paradoja"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "Atribuye acción humana al viento."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "Las figuras literarias sirven para:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Embellecer el lenguaje",
+            "Hacer tablas",
+            "Medir sílabas solamente",
+            "Traducir textos"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "explanation": "Sirven para embellecer y expresar mejor."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "La metáfora relaciona dos realidades:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "Sin usar 'como'",
+            "Siempre con 'como'",
+            "Solo con números",
+            "Solo en teatro"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
+          "explanation": "La metáfora no necesita 'como'."
         },
         {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+          "q": "La comparación usa normalmente:",
           "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
+            "Como",
+            "Porque",
+            "Aunque",
+            "Donde"
           ],
           "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
+          "explanation": "La comparación suele usar 'como'."
         },
         {
-          "q": "Este bloque forma parte de:",
+          "q": "La anáfora consiste en:",
           "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
+            "Repetición al inicio",
+            "Medir sílabas",
+            "Cambiar personajes",
+            "Rimar en pares"
           ],
           "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
+          "explanation": "Consiste en repetir palabras al inicio."
         },
         {
-          "q": "La mejor forma de dominar este bloque es:",
+          "q": "La personificación atribuye rasgos humanos a:",
           "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
+            "Seres no humanos",
+            "Solo personas",
+            "Autores",
+            "Libros"
           ],
           "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "Se atribuyen rasgos humanos a seres no humanos."
         }
       ]
     },
@@ -2039,456 +2039,131 @@ window.APP_DATA = {
       ],
       "quiz": [
         {
-          "q": "¿Cuál es una idea clave de este bloque?",
+          "q": "'Tempus fugit' significa:",
           "options": [
-            "Una idea propia del bloque",
-            "Un rasgo de la novela realista",
-            "Una característica del cine",
-            "Una idea de la prensa"
+            "El tiempo pasa",
+            "La guerra llega",
+            "Todo es eterno",
+            "La noche cae"
           ],
           "answer": 0,
-          "explanation": "Es una idea propia del bloque."
+          "explanation": "Significa que el tiempo pasa rápido."
         },
         {
-          "q": "Este contenido pertenece a la:",
+          "q": "'Muerte igualadora' quiere decir que:",
           "options": [
-            "Literatura medieval",
-            "Vanguardia",
-            "Siglo XXI",
-            "Realismo"
+            "La muerte llega a todos",
+            "Solo mueren los héroes",
+            "Nadie muere",
+            "Solo mueren los pobres"
           ],
           "answer": 0,
-          "explanation": "Pertenece a la literatura medieval."
+          "explanation": "La muerte afecta a todos por igual."
         },
         {
-          "q": "La explicación del bloque destaca:",
+          "q": "'Ubi sunt' se relaciona con:",
           "options": [
-            "Un rasgo característico",
-            "Un invento moderno",
-            "Una ley física",
-            "Un dato deportivo"
+            "Preguntar por los que ya no están",
+            "Aprovechar el día",
+            "Paisaje ideal",
+            "Vida retirada"
           ],
           "answer": 0,
-          "explanation": "Destaca un rasgo característico."
+          "explanation": "Se pregunta por aquellos que desaparecieron."
         },
         {
-          "q": "El texto o ejemplo sirve para:",
+          "q": "'Fama póstuma' es:",
           "options": [
-            "Ilustrar el bloque",
-            "Borrar el tema",
-            "Cambiar de asignatura",
-            "Hablar de ciencia"
+            "La fama tras la muerte",
+            "La fama en vida solamente",
+            "La fama de un actor moderno",
+            "La fama digital"
           ],
           "answer": 0,
-          "explanation": "Sirve para ilustrar el bloque."
+          "explanation": "Es la fama que permanece después de morir."
         },
         {
-          "q": "El análisis de este bloque pide:",
+          "q": "«Nuestras vidas son los ríos...» se relaciona con:",
           "options": [
-            "Identificar una idea clave",
-            "Resolver una ecuación",
-            "Traducir al alemán",
-            "Hacer una receta"
+            "Paso del tiempo",
+            "Humor burlesco",
+            "Épica guerrera",
+            "Ciencia"
           ],
           "answer": 0,
-          "explanation": "Pide identificar una idea clave."
+          "explanation": "Reflexiona sobre el paso del tiempo."
         },
         {
-          "q": "El cuaderno del medievo sirve para:",
+          "q": "Los tópicos literarios son:",
           "options": [
-            "Escribir y ordenar ideas",
-            "Jugar sin estudiar",
-            "No responder nada",
-            "Saltar el bloque"
+            "Temas recurrentes",
+            "Autores medievales",
+            "Tipos de rima",
+            "Personajes teatrales"
           ],
           "answer": 0,
-          "explanation": "Sirve para escribir y ordenar ideas."
+          "explanation": "Son temas que se repiten mucho en la literatura."
         },
         {
-          "q": "El quiz del bloque está pensado para:",
+          "q": "Un tópico frecuente en MANRIQUE es:",
           "options": [
-            "Comprobar lo aprendido",
-            "Medir velocidad de carrera",
-            "Aprender música",
-            "Hacer dibujos"
+            "Tempus fugit",
+            "Ciencia ficción",
+            "Locus urbano",
+            "Tecnología"
           ],
           "answer": 0,
-          "explanation": "Sirve para comprobar lo aprendido."
+          "explanation": "En MANRIQUE aparece mucho el tempus fugit."
         },
         {
-          "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+          "q": "La 'muerte igualadora' se opone a:",
           "options": [
-            "Conceptos del tema",
-            "Ideas de otra asignatura",
-            "Noticias actuales",
-            "Móviles"
+            "Los privilegios sociales",
+            "El paso del tiempo",
+            "La metáfora",
+            "La rima"
           ],
           "answer": 0,
-          "explanation": "Debe apoyarse en conceptos del tema."
+          "explanation": "La muerte iguala a todos más allá de privilegios."
         },
         {
-          "q": "Este bloque forma parte de:",
+          "q": "Los tópicos ayudan a reconocer:",
           "options": [
-            "La app de literatura medieval",
-            "Una app de química",
-            "Un videojuego deportivo",
-            "Un mapa físico"
+            "Ideas literarias repetidas",
+            "Solo fechas",
+            "Solo autores modernos",
+            "Reglas de ortografía"
           ],
           "answer": 0,
-          "explanation": "Forma parte de la app de literatura medieval."
+          "explanation": "Ayudan a identificar ideas literarias recurrentes."
         },
         {
-          "q": "La mejor forma de dominar este bloque es:",
+          "q": "Un texto con reflexión sobre la brevedad de la vida usa probablemente:",
           "options": [
-            "Leer, escribir y practicar",
-            "No mirar nada",
-            "Saltarse el cuaderno",
-            "Responder al azar"
+            "Tempus fugit",
+            "Comicidad absurda",
+            "Lenguaje científico",
+            "Crónica periodística"
           ],
           "answer": 0,
-          "explanation": "Hay que leer, escribir y practicar."
+          "explanation": "La brevedad de la vida se relaciona con tempus fugit."
         }
       ]
     }
   ],
   "final_quiz": [
     {
-      "blockId": 9,
-      "blockTitle": "PROSA MEDIEVAL",
-      "q": "La explicación del bloque destaca:",
-      "options": [
-        "Un rasgo característico",
-        "Un invento moderno",
-        "Una ley física",
-        "Un dato deportivo"
-      ],
-      "answer": 0,
-      "explanation": "Destaca un rasgo característico."
-    },
-    {
-      "blockId": 4,
-      "blockTitle": "ROMANCES",
-      "q": "Este bloque forma parte de:",
-      "options": [
-        "La app de literatura medieval",
-        "Una app de química",
-        "Un videojuego deportivo",
-        "Un mapa físico"
-      ],
-      "answer": 0,
-      "explanation": "Forma parte de la app de literatura medieval."
-    },
-    {
-      "blockId": 11,
-      "blockTitle": "TEATRO MEDIEVAL",
-      "q": "Este contenido pertenece a la:",
-      "options": [
-        "Literatura medieval",
-        "Vanguardia",
-        "Siglo XXI",
-        "Realismo"
-      ],
-      "answer": 0,
-      "explanation": "Pertenece a la literatura medieval."
-    },
-    {
-      "blockId": 2,
-      "blockTitle": "CANTARES DE GESTA",
-      "q": "Su tema principal es:",
-      "options": [
-        "Hazañas heroicas",
-        "Ciencia",
-        "Política moderna",
-        "Comedia"
-      ],
-      "answer": 0,
-      "explanation": "Narran hazañas heroicas."
-    },
-    {
-      "blockId": 2,
-      "blockTitle": "CANTARES DE GESTA",
-      "q": "El protagonista de estos poemas suele ser:",
-      "options": [
-        "Un héroe",
-        "Un científico",
-        "Un periodista",
-        "Un pintor"
-      ],
-      "answer": 0,
-      "explanation": "Suele ser un héroe."
-    },
-    {
-      "blockId": 14,
-      "blockTitle": "FIGURAS LITERARIAS",
-      "q": "Una respuesta correcta en este bloque debe apoyarse en:",
-      "options": [
-        "Conceptos del tema",
-        "Ideas de otra asignatura",
-        "Noticias actuales",
-        "Móviles"
-      ],
-      "answer": 0,
-      "explanation": "Debe apoyarse en conceptos del tema."
-    },
-    {
       "blockId": 3,
       "blockTitle": "CANTAR DE MIO CID",
-      "q": "El análisis de este bloque pide:",
+      "q": "El Cid busca recuperar:",
       "options": [
-        "Identificar una idea clave",
-        "Resolver una ecuación",
-        "Traducir al alemán",
-        "Hacer una receta"
+        "Su honor",
+        "Un castillo de ciencia",
+        "Una universidad",
+        "Un periódico"
       ],
       "answer": 0,
-      "explanation": "Pide identificar una idea clave."
-    },
-    {
-      "blockId": 10,
-      "blockTitle": "DON JUAN MANUEL Y EL CONDE LUCANOR",
-      "q": "El texto o ejemplo sirve para:",
-      "options": [
-        "Ilustrar el bloque",
-        "Borrar el tema",
-        "Cambiar de asignatura",
-        "Hablar de ciencia"
-      ],
-      "answer": 0,
-      "explanation": "Sirve para ilustrar el bloque."
-    },
-    {
-      "blockId": 2,
-      "blockTitle": "CANTARES DE GESTA",
-      "q": "El héroe épico medieval suele ser:",
-      "options": [
-        "Cobarde",
-        "Valiente",
-        "Pasivo",
-        "Cómico"
-      ],
-      "answer": 1,
-      "explanation": "Se presenta como valiente."
-    },
-    {
-      "blockId": 13,
-      "blockTitle": "MÉTRICA",
-      "q": "La mejor forma de dominar este bloque es:",
-      "options": [
-        "Leer, escribir y practicar",
-        "No mirar nada",
-        "Saltarse el cuaderno",
-        "Responder al azar"
-      ],
-      "answer": 0,
-      "explanation": "Hay que leer, escribir y practicar."
-    },
-    {
-      "blockId": 6,
-      "blockTitle": "GONZALO DE BERCEO",
-      "q": "El análisis de este bloque pide:",
-      "options": [
-        "Identificar una idea clave",
-        "Resolver una ecuación",
-        "Traducir al alemán",
-        "Hacer una receta"
-      ],
-      "answer": 0,
-      "explanation": "Pide identificar una idea clave."
-    },
-    {
-      "blockId": 1,
-      "blockTitle": "POESÍA POPULAR LÍRICA",
-      "q": "Las jarchas son uno de los primeros testimonios de:",
-      "options": [
-        "Romance hispánico",
-        "Latín clásico",
-        "Griego",
-        "Italiano"
-      ],
-      "answer": 0,
-      "explanation": "Son muy antiguas dentro del romance."
-    },
-    {
-      "blockId": 3,
-      "blockTitle": "CANTAR DE MIO CID",
-      "q": "La explicación del bloque destaca:",
-      "options": [
-        "Un rasgo característico",
-        "Un invento moderno",
-        "Una ley física",
-        "Un dato deportivo"
-      ],
-      "answer": 0,
-      "explanation": "Destaca un rasgo característico."
-    },
-    {
-      "blockId": 12,
-      "blockTitle": "FERNANDO DE ROJAS Y LA CELESTINA",
-      "q": "Este contenido pertenece a la:",
-      "options": [
-        "Literatura medieval",
-        "Vanguardia",
-        "Siglo XXI",
-        "Realismo"
-      ],
-      "answer": 0,
-      "explanation": "Pertenece a la literatura medieval."
-    },
-    {
-      "blockId": 11,
-      "blockTitle": "TEATRO MEDIEVAL",
-      "q": "Una respuesta correcta en este bloque debe apoyarse en:",
-      "options": [
-        "Conceptos del tema",
-        "Ideas de otra asignatura",
-        "Noticias actuales",
-        "Móviles"
-      ],
-      "answer": 0,
-      "explanation": "Debe apoyarse en conceptos del tema."
-    },
-    {
-      "blockId": 2,
-      "blockTitle": "CANTARES DE GESTA",
-      "q": "Un cantar de gesta pertenece a la:",
-      "options": [
-        "Épica",
-        "Lírica contemporánea",
-        "Novela realista",
-        "Comedia barroca"
-      ],
-      "answer": 0,
-      "explanation": "Pertenece a la épica."
-    },
-    {
-      "blockId": 7,
-      "blockTitle": "ARCIPRESTE DE HITA",
-      "q": "Este contenido pertenece a la:",
-      "options": [
-        "Literatura medieval",
-        "Vanguardia",
-        "Siglo XXI",
-        "Realismo"
-      ],
-      "answer": 0,
-      "explanation": "Pertenece a la literatura medieval."
-    },
-    {
-      "blockId": 3,
-      "blockTitle": "CANTAR DE MIO CID",
-      "q": "El texto o ejemplo sirve para:",
-      "options": [
-        "Ilustrar el bloque",
-        "Borrar el tema",
-        "Cambiar de asignatura",
-        "Hablar de ciencia"
-      ],
-      "answer": 0,
-      "explanation": "Sirve para ilustrar el bloque."
-    },
-    {
-      "blockId": 11,
-      "blockTitle": "TEATRO MEDIEVAL",
-      "q": "Este bloque forma parte de:",
-      "options": [
-        "La app de literatura medieval",
-        "Una app de química",
-        "Un videojuego deportivo",
-        "Un mapa físico"
-      ],
-      "answer": 0,
-      "explanation": "Forma parte de la app de literatura medieval."
-    },
-    {
-      "blockId": 2,
-      "blockTitle": "CANTARES DE GESTA",
-      "q": "Los versos de los cantares de gesta suelen ser:",
-      "options": [
-        "Largos",
-        "De 8 sílabas exactas",
-        "Libres",
-        "Sonetos"
-      ],
-      "answer": 0,
-      "explanation": "Suelen ser largos."
-    },
-    {
-      "blockId": 4,
-      "blockTitle": "ROMANCES",
-      "q": "Este contenido pertenece a la:",
-      "options": [
-        "Literatura medieval",
-        "Vanguardia",
-        "Siglo XXI",
-        "Realismo"
-      ],
-      "answer": 0,
-      "explanation": "Pertenece a la literatura medieval."
-    },
-    {
-      "blockId": 6,
-      "blockTitle": "GONZALO DE BERCEO",
-      "q": "Una respuesta correcta en este bloque debe apoyarse en:",
-      "options": [
-        "Conceptos del tema",
-        "Ideas de otra asignatura",
-        "Noticias actuales",
-        "Móviles"
-      ],
-      "answer": 0,
-      "explanation": "Debe apoyarse en conceptos del tema."
-    },
-    {
-      "blockId": 14,
-      "blockTitle": "FIGURAS LITERARIAS",
-      "q": "¿Cuál es una idea clave de este bloque?",
-      "options": [
-        "Una idea propia del bloque",
-        "Un rasgo de la novela realista",
-        "Una característica del cine",
-        "Una idea de la prensa"
-      ],
-      "answer": 0,
-      "explanation": "Es una idea propia del bloque."
-    },
-    {
-      "blockId": 8,
-      "blockTitle": "JORGE MANRIQUE",
-      "q": "El texto o ejemplo sirve para:",
-      "options": [
-        "Ilustrar el bloque",
-        "Borrar el tema",
-        "Cambiar de asignatura",
-        "Hablar de ciencia"
-      ],
-      "answer": 0,
-      "explanation": "Sirve para ilustrar el bloque."
-    },
-    {
-      "blockId": 8,
-      "blockTitle": "JORGE MANRIQUE",
-      "q": "El análisis de este bloque pide:",
-      "options": [
-        "Identificar una idea clave",
-        "Resolver una ecuación",
-        "Traducir al alemán",
-        "Hacer una receta"
-      ],
-      "answer": 0,
-      "explanation": "Pide identificar una idea clave."
-    },
-    {
-      "blockId": 6,
-      "blockTitle": "GONZALO DE BERCEO",
-      "q": "¿Cuál es una idea clave de este bloque?",
-      "options": [
-        "Una idea propia del bloque",
-        "Un rasgo de la novela realista",
-        "Una característica del cine",
-        "Una idea de la prensa"
-      ],
-      "answer": 0,
-      "explanation": "Es una idea propia del bloque."
+      "explanation": "Quiere recuperar su honor."
     },
     {
       "blockId": 1,
@@ -2504,212 +2179,420 @@ window.APP_DATA = {
       "explanation": "Son composiciones muy breves."
     },
     {
-      "blockId": 3,
-      "blockTitle": "CANTAR DE MIO CID",
-      "q": "Este bloque forma parte de:",
-      "options": [
-        "La app de literatura medieval",
-        "Una app de química",
-        "Un videojuego deportivo",
-        "Un mapa físico"
-      ],
-      "answer": 0,
-      "explanation": "Forma parte de la app de literatura medieval."
-    },
-    {
-      "blockId": 1,
-      "blockTitle": "POESÍA POPULAR LÍRICA",
-      "q": "Tema frecuente de esta poesía:",
-      "options": [
-        "Batallas",
-        "Amor",
-        "Ciencia",
-        "Política"
-      ],
-      "answer": 1,
-      "explanation": "El tema principal es amoroso."
-    },
-    {
       "blockId": 8,
       "blockTitle": "JORGE MANRIQUE",
-      "q": "Este contenido pertenece a la:",
+      "q": "JORGE MANRIQUE escribió:",
       "options": [
-        "Literatura medieval",
-        "Vanguardia",
-        "Siglo XXI",
-        "Realismo"
+        "COPLAS A LA MUERTE DE SU PADRE",
+        "LA CELESTINA",
+        "EL CONDE LUCANOR",
+        "CANTAR DE MIO CID"
       ],
       "answer": 0,
-      "explanation": "Pertenece a la literatura medieval."
-    },
-    {
-      "blockId": 11,
-      "blockTitle": "TEATRO MEDIEVAL",
-      "q": "La mejor forma de dominar este bloque es:",
-      "options": [
-        "Leer, escribir y practicar",
-        "No mirar nada",
-        "Saltarse el cuaderno",
-        "Responder al azar"
-      ],
-      "answer": 0,
-      "explanation": "Hay que leer, escribir y practicar."
-    },
-    {
-      "blockId": 14,
-      "blockTitle": "FIGURAS LITERARIAS",
-      "q": "El análisis de este bloque pide:",
-      "options": [
-        "Identificar una idea clave",
-        "Resolver una ecuación",
-        "Traducir al alemán",
-        "Hacer una receta"
-      ],
-      "answer": 0,
-      "explanation": "Pide identificar una idea clave."
-    },
-    {
-      "blockId": 4,
-      "blockTitle": "ROMANCES",
-      "q": "Una respuesta correcta en este bloque debe apoyarse en:",
-      "options": [
-        "Conceptos del tema",
-        "Ideas de otra asignatura",
-        "Noticias actuales",
-        "Móviles"
-      ],
-      "answer": 0,
-      "explanation": "Debe apoyarse en conceptos del tema."
-    },
-    {
-      "blockId": 6,
-      "blockTitle": "GONZALO DE BERCEO",
-      "q": "El texto o ejemplo sirve para:",
-      "options": [
-        "Ilustrar el bloque",
-        "Borrar el tema",
-        "Cambiar de asignatura",
-        "Hablar de ciencia"
-      ],
-      "answer": 0,
-      "explanation": "Sirve para ilustrar el bloque."
-    },
-    {
-      "blockId": 15,
-      "blockTitle": "TÓPICOS LITERARIOS",
-      "q": "El cuaderno del medievo sirve para:",
-      "options": [
-        "Escribir y ordenar ideas",
-        "Jugar sin estudiar",
-        "No responder nada",
-        "Saltar el bloque"
-      ],
-      "answer": 0,
-      "explanation": "Sirve para escribir y ordenar ideas."
+      "explanation": "Su obra más conocida son las COPLAS."
     },
     {
       "blockId": 7,
       "blockTitle": "ARCIPRESTE DE HITA",
-      "q": "La mejor forma de dominar este bloque es:",
+      "q": "Uno de sus temas es:",
       "options": [
-        "Leer, escribir y practicar",
-        "No mirar nada",
-        "Saltarse el cuaderno",
-        "Responder al azar"
+        "El amor",
+        "La ingeniería",
+        "La prensa",
+        "La física"
       ],
       "answer": 0,
-      "explanation": "Hay que leer, escribir y practicar."
+      "explanation": "El tema amoroso es central."
     },
     {
-      "blockId": 13,
-      "blockTitle": "MÉTRICA",
-      "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+      "blockId": 6,
+      "blockTitle": "GONZALO DE BERCEO",
+      "q": "Su público podía comprenderlo gracias a:",
       "options": [
-        "Conceptos del tema",
-        "Ideas de otra asignatura",
-        "Noticias actuales",
-        "Móviles"
+        "Lenguaje sencillo",
+        "Latín culto exclusivo",
+        "Jerga científica",
+        "Verso libre"
       ],
       "answer": 0,
-      "explanation": "Debe apoyarse en conceptos del tema."
-    },
-    {
-      "blockId": 13,
-      "blockTitle": "MÉTRICA",
-      "q": "El quiz del bloque está pensado para:",
-      "options": [
-        "Comprobar lo aprendido",
-        "Medir velocidad de carrera",
-        "Aprender música",
-        "Hacer dibujos"
-      ],
-      "answer": 0,
-      "explanation": "Sirve para comprobar lo aprendido."
+      "explanation": "Utiliza un lenguaje sencillo."
     },
     {
       "blockId": 4,
       "blockTitle": "ROMANCES",
-      "q": "La mejor forma de dominar este bloque es:",
+      "q": "El lenguaje de los romances suele ser:",
       "options": [
-        "Leer, escribir y practicar",
-        "No mirar nada",
-        "Saltarse el cuaderno",
-        "Responder al azar"
+        "Sencillo",
+        "Muy técnico",
+        "Científico",
+        "Jurídico"
       ],
       "answer": 0,
-      "explanation": "Hay que leer, escribir y practicar."
+      "explanation": "Suele ser sencillo."
     },
     {
-      "blockId": 13,
-      "blockTitle": "MÉTRICA",
-      "q": "¿Cuál es una idea clave de este bloque?",
+      "blockId": 3,
+      "blockTitle": "CANTAR DE MIO CID",
+      "q": "El poema pertenece al género:",
       "options": [
-        "Una idea propia del bloque",
-        "Un rasgo de la novela realista",
-        "Una característica del cine",
-        "Una idea de la prensa"
+        "Épico",
+        "Dramático",
+        "Ensayístico",
+        "Científico"
       ],
       "answer": 0,
-      "explanation": "Es una idea propia del bloque."
-    },
-    {
-      "blockId": 11,
-      "blockTitle": "TEATRO MEDIEVAL",
-      "q": "El análisis de este bloque pide:",
-      "options": [
-        "Identificar una idea clave",
-        "Resolver una ecuación",
-        "Traducir al alemán",
-        "Hacer una receta"
-      ],
-      "answer": 0,
-      "explanation": "Pide identificar una idea clave."
-    },
-    {
-      "blockId": 9,
-      "blockTitle": "PROSA MEDIEVAL",
-      "q": "Una respuesta correcta en este bloque debe apoyarse en:",
-      "options": [
-        "Conceptos del tema",
-        "Ideas de otra asignatura",
-        "Noticias actuales",
-        "Móviles"
-      ],
-      "answer": 0,
-      "explanation": "Debe apoyarse en conceptos del tema."
+      "explanation": "Es una obra épica."
     },
     {
       "blockId": 14,
       "blockTitle": "FIGURAS LITERARIAS",
-      "q": "La explicación del bloque destaca:",
+      "q": "La personificación atribuye rasgos humanos a:",
       "options": [
-        "Un rasgo característico",
-        "Un invento moderno",
-        "Una ley física",
-        "Un dato deportivo"
+        "Seres no humanos",
+        "Solo personas",
+        "Autores",
+        "Libros"
       ],
       "answer": 0,
-      "explanation": "Destaca un rasgo característico."
+      "explanation": "Se atribuyen rasgos humanos a seres no humanos."
+    },
+    {
+      "blockId": 3,
+      "blockTitle": "CANTAR DE MIO CID",
+      "q": "La primera parte del poema es:",
+      "options": [
+        "Afrenta de Corpes",
+        "Destierro",
+        "Las bodas",
+        "La moraleja"
+      ],
+      "answer": 1,
+      "explanation": "La primera parte es el destierro."
+    },
+    {
+      "blockId": 11,
+      "blockTitle": "TEATRO MEDIEVAL",
+      "q": "Antes del gran teatro posterior encontramos:",
+      "options": [
+        "Manifestaciones medievales",
+        "Telenovelas",
+        "Ensayo político",
+        "Ópera digital"
+      ],
+      "answer": 0,
+      "explanation": "El teatro medieval es un precedente."
+    },
+    {
+      "blockId": 1,
+      "blockTitle": "POESÍA POPULAR LÍRICA",
+      "q": "Las jarchas están escritas en:",
+      "options": [
+        "Latín",
+        "Mozárabe o romance",
+        "Italiano",
+        "Francés"
+      ],
+      "answer": 1,
+      "explanation": "En lengua romance."
+    },
+    {
+      "blockId": 1,
+      "blockTitle": "POESÍA POPULAR LÍRICA",
+      "q": "Esta poesía pertenece a la cultura:",
+      "options": [
+        "Popular",
+        "Noble",
+        "Universitaria",
+        "Escolástica"
+      ],
+      "answer": 0,
+      "explanation": "Surge del pueblo."
+    },
+    {
+      "blockId": 3,
+      "blockTitle": "CANTAR DE MIO CID",
+      "q": "La última parte del poema es:",
+      "options": [
+        "El destierro",
+        "La afrenta de Corpes",
+        "Las jarchas",
+        "La cuaderna vía"
+      ],
+      "answer": 1,
+      "explanation": "La última parte es la afrenta de Corpes."
+    },
+    {
+      "blockId": 6,
+      "blockTitle": "GONZALO DE BERCEO",
+      "q": "«Quiero fer una prosa en román paladino...» muestra voluntad de:",
+      "options": [
+        "Ser claro",
+        "Confundir",
+        "Escribir ciencia",
+        "Hacer humor moderno"
+      ],
+      "answer": 0,
+      "explanation": "Busca expresarse con claridad."
+    },
+    {
+      "blockId": 6,
+      "blockTitle": "GONZALO DE BERCEO",
+      "q": "BERCEO destaca en la literatura medieval por ser:",
+      "options": [
+        "Autor conocido y culto",
+        "Autor anónimo",
+        "Autor contemporáneo",
+        "Autor teatral"
+      ],
+      "answer": 0,
+      "explanation": "Destaca por ser autor conocido."
+    },
+    {
+      "blockId": 13,
+      "blockTitle": "MÉTRICA",
+      "q": "La métrica se aplica a:",
+      "options": [
+        "Los versos",
+        "Las noticias",
+        "Los mapas",
+        "Los experimentos"
+      ],
+      "answer": 0,
+      "explanation": "Se aplica a los versos."
+    },
+    {
+      "blockId": 15,
+      "blockTitle": "TÓPICOS LITERARIOS",
+      "q": "Los tópicos ayudan a reconocer:",
+      "options": [
+        "Ideas literarias repetidas",
+        "Solo fechas",
+        "Solo autores modernos",
+        "Reglas de ortografía"
+      ],
+      "answer": 0,
+      "explanation": "Ayudan a identificar ideas literarias recurrentes."
+    },
+    {
+      "blockId": 6,
+      "blockTitle": "GONZALO DE BERCEO",
+      "q": "GONZALO DE BERCEO fue:",
+      "options": [
+        "El primer autor castellano conocido",
+        "Un personaje teatral",
+        "Un rey medieval",
+        "Un juglar anónimo"
+      ],
+      "answer": 0,
+      "explanation": "Se considera el primer autor castellano conocido."
+    },
+    {
+      "blockId": 11,
+      "blockTitle": "TEATRO MEDIEVAL",
+      "q": "Una característica del teatro medieval es:",
+      "options": [
+        "Vinculación religiosa",
+        "Verso libre contemporáneo",
+        "Ciencia ficción",
+        "Uso de cine"
+      ],
+      "answer": 0,
+      "explanation": "Está muy vinculado a lo religioso."
+    },
+    {
+      "blockId": 6,
+      "blockTitle": "GONZALO DE BERCEO",
+      "q": "La finalidad de BERCEO es:",
+      "options": [
+        "Didáctica",
+        "Publicitaria",
+        "Tecnológica",
+        "Periodística"
+      ],
+      "answer": 0,
+      "explanation": "Pretende enseñar."
+    },
+    {
+      "blockId": 12,
+      "blockTitle": "FERNANDO DE ROJAS Y LA CELESTINA",
+      "q": "Uno de los temas de LA CELESTINA es:",
+      "options": [
+        "La avaricia",
+        "La geometría",
+        "La prensa",
+        "La épica heroica"
+      ],
+      "answer": 0,
+      "explanation": "También trata la avaricia."
+    },
+    {
+      "blockId": 8,
+      "blockTitle": "JORGE MANRIQUE",
+      "q": "Uno de los temas principales es:",
+      "options": [
+        "La muerte",
+        "La tecnología",
+        "La prensa",
+        "El humor absurdo"
+      ],
+      "answer": 0,
+      "explanation": "Reflexiona sobre la muerte."
+    },
+    {
+      "blockId": 1,
+      "blockTitle": "POESÍA POPULAR LÍRICA",
+      "q": "Las jarchas aparecen al final de:",
+      "options": [
+        "Moaxajas",
+        "Novelas",
+        "Romances",
+        "Obras teatrales"
+      ],
+      "answer": 0,
+      "explanation": "Son estrofas finales de las moaxajas."
+    },
+    {
+      "blockId": 10,
+      "blockTitle": "DON JUAN MANUEL Y EL CONDE LUCANOR",
+      "q": "DON JUAN MANUEL es un autor:",
+      "options": [
+        "Medieval",
+        "Vanguardista",
+        "Realista del XIX",
+        "Contemporáneo"
+      ],
+      "answer": 0,
+      "explanation": "Es un autor medieval."
+    },
+    {
+      "blockId": 11,
+      "blockTitle": "TEATRO MEDIEVAL",
+      "q": "El teatro medieval es un precedente del:",
+      "options": [
+        "Teatro posterior",
+        "Cine",
+        "Podcast",
+        "Periodismo"
+      ],
+      "answer": 0,
+      "explanation": "Fue precedente del teatro posterior."
+    },
+    {
+      "blockId": 3,
+      "blockTitle": "CANTAR DE MIO CID",
+      "q": "¿Quién es el protagonista del CANTAR DE MIO CID?",
+      "options": [
+        "CALISTO",
+        "RODRIGO DÍAZ DE VIVAR",
+        "DON JUAN MANUEL",
+        "JORGE MANRIQUE"
+      ],
+      "answer": 1,
+      "explanation": "El protagonista es RODRIGO DÍAZ DE VIVAR."
+    },
+    {
+      "blockId": 9,
+      "blockTitle": "PROSA MEDIEVAL",
+      "q": "La prosa medieval está muy relacionada con:",
+      "options": [
+        "La cultura escrita",
+        "Solo la oralidad",
+        "El cine",
+        "La radio"
+      ],
+      "answer": 0,
+      "explanation": "Está vinculada a la cultura escrita."
+    },
+    {
+      "blockId": 6,
+      "blockTitle": "GONZALO DE BERCEO",
+      "q": "BERCEO pertenece al:",
+      "options": [
+        "Mester de clerecía",
+        "Romanticismo",
+        "Teatro barroco",
+        "Siglo XX"
+      ],
+      "answer": 0,
+      "explanation": "Pertenece al mester de clerecía."
+    },
+    {
+      "blockId": 5,
+      "blockTitle": "MESTER DE CLERECÍA",
+      "q": "Sus versos son normalmente de:",
+      "options": [
+        "14 sílabas",
+        "8 sílabas",
+        "11 sílabas",
+        "7 sílabas"
+      ],
+      "answer": 0,
+      "explanation": "Usa versos alejandrinos de 14 sílabas."
+    },
+    {
+      "blockId": 15,
+      "blockTitle": "TÓPICOS LITERARIOS",
+      "q": "«Nuestras vidas son los ríos...» se relaciona con:",
+      "options": [
+        "Paso del tiempo",
+        "Humor burlesco",
+        "Épica guerrera",
+        "Ciencia"
+      ],
+      "answer": 0,
+      "explanation": "Reflexiona sobre el paso del tiempo."
+    },
+    {
+      "blockId": 2,
+      "blockTitle": "CANTARES DE GESTA",
+      "q": "El público conocía estas historias por:",
+      "options": [
+        "Recitación pública",
+        "Cómics",
+        "Televisión",
+        "Podcasts"
+      ],
+      "answer": 0,
+      "explanation": "Se difundían mediante recitación pública."
+    },
+    {
+      "blockId": 3,
+      "blockTitle": "CANTAR DE MIO CID",
+      "q": "Una parte del poema trata sobre:",
+      "options": [
+        "Las bodas",
+        "La imprenta",
+        "El teatro moderno",
+        "La novela picaresca"
+      ],
+      "answer": 0,
+      "explanation": "Una parte es el cantar de las bodas."
+    },
+    {
+      "blockId": 13,
+      "blockTitle": "MÉTRICA",
+      "q": "La rima consonante repite:",
+      "options": [
+        "Vocales y consonantes",
+        "Solo vocales",
+        "Solo sílabas iniciales",
+        "Nada"
+      ],
+      "answer": 0,
+      "explanation": "Repite vocales y consonantes."
+    },
+    {
+      "blockId": 13,
+      "blockTitle": "MÉTRICA",
+      "q": "Un verso de 8 sílabas es de:",
+      "options": [
+        "Arte menor",
+        "Arte mayor",
+        "Prosa",
+        "Teatro"
+      ],
+      "answer": 0,
+      "explanation": "Es de arte menor."
     },
     {
       "blockId": 2,
@@ -2725,82 +2608,199 @@ window.APP_DATA = {
       "explanation": "Se transmitían oralmente."
     },
     {
-      "blockId": 13,
-      "blockTitle": "MÉTRICA",
-      "q": "El cuaderno del medievo sirve para:",
+      "blockId": 2,
+      "blockTitle": "CANTARES DE GESTA",
+      "q": "Los recitaban principalmente:",
       "options": [
-        "Escribir y ordenar ideas",
-        "Jugar sin estudiar",
-        "No responder nada",
-        "Saltar el bloque"
+        "Clérigos",
+        "Juglares",
+        "Reyes",
+        "Monjes"
       ],
-      "answer": 0,
-      "explanation": "Sirve para escribir y ordenar ideas."
-    },
-    {
-      "blockId": 12,
-      "blockTitle": "FERNANDO DE ROJAS Y LA CELESTINA",
-      "q": "La explicación del bloque destaca:",
-      "options": [
-        "Un rasgo característico",
-        "Un invento moderno",
-        "Una ley física",
-        "Un dato deportivo"
-      ],
-      "answer": 0,
-      "explanation": "Destaca un rasgo característico."
-    },
-    {
-      "blockId": 9,
-      "blockTitle": "PROSA MEDIEVAL",
-      "q": "Este contenido pertenece a la:",
-      "options": [
-        "Literatura medieval",
-        "Vanguardia",
-        "Siglo XXI",
-        "Realismo"
-      ],
-      "answer": 0,
-      "explanation": "Pertenece a la literatura medieval."
-    },
-    {
-      "blockId": 15,
-      "blockTitle": "TÓPICOS LITERARIOS",
-      "q": "El texto o ejemplo sirve para:",
-      "options": [
-        "Ilustrar el bloque",
-        "Borrar el tema",
-        "Cambiar de asignatura",
-        "Hablar de ciencia"
-      ],
-      "answer": 0,
-      "explanation": "Sirve para ilustrar el bloque."
+      "answer": 1,
+      "explanation": "Los recitaban los juglares."
     },
     {
       "blockId": 5,
       "blockTitle": "MESTER DE CLERECÍA",
-      "q": "Una respuesta correcta en este bloque debe apoyarse en:",
+      "q": "La cuaderna vía se relaciona con:",
       "options": [
-        "Conceptos del tema",
-        "Ideas de otra asignatura",
-        "Noticias actuales",
-        "Móviles"
+        "Regularidad métrica",
+        "Verso libre",
+        "Prosa poética",
+        "Teatro"
       ],
       "answer": 0,
-      "explanation": "Debe apoyarse en conceptos del tema."
+      "explanation": "Supone regularidad métrica."
+    },
+    {
+      "blockId": 2,
+      "blockTitle": "CANTARES DE GESTA",
+      "q": "Su tema principal es:",
+      "options": [
+        "Hazañas heroicas",
+        "Ciencia",
+        "Política moderna",
+        "Comedia"
+      ],
+      "answer": 0,
+      "explanation": "Narran hazañas heroicas."
+    },
+    {
+      "blockId": 5,
+      "blockTitle": "MESTER DE CLERECÍA",
+      "q": "Frente al juglar, el clérigo busca:",
+      "options": [
+        "Enseñar",
+        "Improvisar batalla",
+        "Hacer memes",
+        "Escribir periódicos"
+      ],
+      "answer": 0,
+      "explanation": "Busca enseñar y transmitir doctrina."
     },
     {
       "blockId": 15,
       "blockTitle": "TÓPICOS LITERARIOS",
-      "q": "El quiz del bloque está pensado para:",
+      "q": "'Tempus fugit' significa:",
       "options": [
-        "Comprobar lo aprendido",
-        "Medir velocidad de carrera",
-        "Aprender música",
-        "Hacer dibujos"
+        "El tiempo pasa",
+        "La guerra llega",
+        "Todo es eterno",
+        "La noche cae"
       ],
       "answer": 0,
-      "explanation": "Sirve para comprobar lo aprendido."
+      "explanation": "Significa que el tiempo pasa rápido."
+    },
+    {
+      "blockId": 5,
+      "blockTitle": "MESTER DE CLERECÍA",
+      "q": "La estrofa característica es:",
+      "options": [
+        "Cuaderna vía",
+        "Romance",
+        "Soneto",
+        "Lira"
+      ],
+      "answer": 0,
+      "explanation": "La estrofa es la cuaderna vía."
+    },
+    {
+      "blockId": 8,
+      "blockTitle": "JORGE MANRIQUE",
+      "q": "La imagen del río se relaciona con:",
+      "options": [
+        "El paso de la vida",
+        "La meteorología",
+        "La cocina",
+        "La arquitectura"
+      ],
+      "answer": 0,
+      "explanation": "El río simboliza el curso de la vida."
+    },
+    {
+      "blockId": 4,
+      "blockTitle": "ROMANCES",
+      "q": "Muchos romances proceden de:",
+      "options": [
+        "Cantares de gesta",
+        "La imprenta",
+        "Novelas realistas",
+        "Obras barrocas"
+      ],
+      "answer": 0,
+      "explanation": "Proceden de los cantares de gesta."
+    },
+    {
+      "blockId": 13,
+      "blockTitle": "MÉTRICA",
+      "q": "La rima asonante repite:",
+      "options": [
+        "Vocales",
+        "Consonantes y vocales todas",
+        "Solo consonantes",
+        "Nada"
+      ],
+      "answer": 0,
+      "explanation": "Repite solo vocales a partir de la última vocal acentuada."
+    },
+    {
+      "blockId": 1,
+      "blockTitle": "POESÍA POPULAR LÍRICA",
+      "q": "Tema frecuente de esta poesía:",
+      "options": [
+        "Batallas",
+        "Amor",
+        "Ciencia",
+        "Política"
+      ],
+      "answer": 1,
+      "explanation": "El tema principal es amoroso."
+    },
+    {
+      "blockId": 10,
+      "blockTitle": "DON JUAN MANUEL Y EL CONDE LUCANOR",
+      "q": "La estructura típica es:",
+      "options": [
+        "Problema + cuento + moraleja",
+        "Solo poema",
+        "Solo diálogo teatral",
+        "Ensayo libre"
+      ],
+      "answer": 0,
+      "explanation": "Esa es la estructura habitual."
+    },
+    {
+      "blockId": 6,
+      "blockTitle": "GONZALO DE BERCEO",
+      "q": "BERCEO escribió en lengua:",
+      "options": [
+        "Castellana",
+        "Inglesa",
+        "Italiana",
+        "Alemana"
+      ],
+      "answer": 0,
+      "explanation": "Escribe en castellano."
+    },
+    {
+      "blockId": 7,
+      "blockTitle": "ARCIPRESTE DE HITA",
+      "q": "El autor es conocido por su:",
+      "options": [
+        "Originalidad y mezcla de tonos",
+        "Tratado matemático",
+        "Novela policiaca",
+        "Drama clásico griego"
+      ],
+      "answer": 0,
+      "explanation": "Su obra es muy original por la mezcla de tonos."
+    },
+    {
+      "blockId": 2,
+      "blockTitle": "CANTARES DE GESTA",
+      "q": "Los versos de los cantares de gesta suelen ser:",
+      "options": [
+        "Largos",
+        "De 8 sílabas exactas",
+        "Libres",
+        "Sonetos"
+      ],
+      "answer": 0,
+      "explanation": "Suelen ser largos."
+    },
+    {
+      "blockId": 12,
+      "blockTitle": "FERNANDO DE ROJAS Y LA CELESTINA",
+      "q": "¿Qué personaje interviene entre ellos?",
+      "options": [
+        "CELESTINA",
+        "PATRONIO",
+        "EL CID",
+        "MANRIQUE"
+      ],
+      "answer": 0,
+      "explanation": "CELESTINA interviene entre ambos."
     }
   ]
 };
