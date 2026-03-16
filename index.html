@@ -1,14 +1,154 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LITERATURA MEDIEVAL — 3º ESO · V4</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Literatura Medieval 3º ESO · Examen</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;background:#f5efe3;margin:0;padding:20px;color:#2d241c}
+.container{max-width:900px;margin:auto;background:#fff;padding:20px;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+h1{margin-top:0;color:#2f4c63}
+.intro{color:#6d6358}
+.controls{margin:20px 0;padding:16px;border:1px solid #ddd;border-radius:10px;background:#faf7f0}
+label{display:block;margin-bottom:8px;font-weight:700}
+input{width:120px;padding:10px;border-radius:8px;border:1px solid #ccc}
+.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+button{padding:10px 14px;border:none;border-radius:8px;cursor:pointer;background:#8c433d;color:#fff;font-weight:700}
+#applyBtn{background:#b8924b} #resetBtn{background:#6d6358}
+.question{margin:18px 0;padding:16px;border:1px solid #ddd;border-radius:10px;background:#fffdf8}
+.option{display:block;width:100%;text-align:left;margin:8px 0;padding:10px 12px;border-radius:8px;cursor:pointer;border:1px solid #ccc;background:#fff;color:#2d241c}
+.option.selected{background:#e7f0ff;border-color:#8bb0e8}
+.option.correct{background:#c8f7c5;border-color:#81c784}
+.option.wrong{background:#f7c5c5;border-color:#e57373}
+.feedback{margin-top:10px;padding:10px 12px;border-radius:8px;background:#faf7f0;border:1px solid #ddd}
+.score{margin-top:20px;font-size:1.1rem;font-weight:700}
+</style>
 </head>
 <body>
-  <div id="app"></div>
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+<main class="container">
+  <h1>LITERATURA MEDIEVAL — 3º ESO</h1>
+  <p class="intro">Versión de emergencia en un solo archivo. No depende de app.js, data.js ni style.css.</p>
+
+  <section class="controls">
+    <label for="numQuestions">Preguntas del examen</label>
+    <input type="number" id="numQuestions" min="1" max="10" value="10">
+    <div class="buttons">
+      <button id="applyBtn" type="button">Aplicar</button>
+      <button id="gradeBtn" type="button">Corregir examen</button>
+      <button id="resetBtn" type="button">Reiniciar</button>
+    </div>
+  </section>
+
+  <section id="exam"></section>
+  <section id="score" class="score"></section>
+</main>
+
+<script>
+const QUESTIONS = [
+  {q:"El Cid busca recuperar:", options:["Su honor","Una universidad","Un periódico","Un castillo de ciencia"], answer:0, explanation:"El Cid intenta recuperar su honor."},
+  {q:"Las jarchas suelen ser:", options:["Muy largas","Muy breves","Novelas","Ensayos"], answer:1, explanation:"Las jarchas son composiciones breves."},
+  {q:"¿Quién escribió La Celestina?", options:["Fernando de Rojas","Berceo","Manrique","Cervantes"], answer:0, explanation:"La Celestina se atribuye a Fernando de Rojas."},
+  {q:"Los romances tienen versos:", options:["Octosílabos","Endecasílabos","Alejandrinos","Libres"], answer:0, explanation:"Los romances suelen tener versos octosílabos."},
+  {q:"La metáfora es:", options:["Comparar usando 'como'","Identificar dos cosas","Repetir palabras","Exagerar"], answer:1, explanation:"La metáfora identifica dos realidades sin usar 'como'."},
+  {q:"Tempus fugit significa:", options:["El tiempo pasa","El tiempo vuelve","La muerte llega","Nada"], answer:0, explanation:"Tempus fugit significa que el tiempo pasa."},
+  {q:"El mester de clerecía usa:", options:["Cuaderna vía","Romances","Sonetos","Prosa"], answer:0, explanation:"El mester de clerecía usa cuaderna vía."},
+  {q:"El protagonista del Cantar de Mio Cid es:", options:["Rodrigo Díaz de Vivar","Calisto","Patronio","Berceo"], answer:0, explanation:"Rodrigo Díaz de Vivar es el Cid."},
+  {q:"Don Juan Manuel escribió:", options:["El Conde Lucanor","La Celestina","El Quijote","Milagros de Nuestra Señora"], answer:0, explanation:"Don Juan Manuel escribió El Conde Lucanor."},
+  {q:"Las figuras literarias sirven para:", options:["Embellecer el lenguaje","Medir versos","Traducir textos","Ninguna"], answer:0, explanation:"Las figuras literarias embellecen el lenguaje."}
+];
+
+let examQuestions = [];
+
+function shuffle(array){
+  return [...array].sort(() => Math.random() - 0.5);
+}
+
+function renderExam(){
+  const examDiv = document.getElementById("exam");
+  examDiv.innerHTML = "";
+
+  examQuestions.forEach((q, i) => {
+    const div = document.createElement("div");
+    div.className = "question";
+
+    const title = document.createElement("div");
+    title.innerHTML = "<strong>" + (i + 1) + ". " + q.q + "</strong>";
+    div.appendChild(title);
+
+    q.options.forEach((opt, j) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "option";
+      btn.textContent = String.fromCharCode(65 + j) + ". " + opt;
+
+      btn.addEventListener("click", () => {
+        if (div.dataset.graded === "true") return;
+        div.querySelectorAll(".option").forEach(o => o.classList.remove("selected"));
+        btn.classList.add("selected");
+        div.dataset.selected = String(j);
+      });
+
+      div.appendChild(btn);
+    });
+
+    examDiv.appendChild(div);
+  });
+}
+
+function startExam(){
+  const n = parseInt(document.getElementById("numQuestions").value, 10) || 10;
+  examQuestions = shuffle(QUESTIONS).slice(0, Math.min(n, QUESTIONS.length));
+  document.getElementById("score").textContent = "";
+  renderExam();
+}
+
+function gradeExam(){
+  const questionDivs = document.querySelectorAll(".question");
+  let correct = 0;
+
+  questionDivs.forEach((div, i) => {
+    div.dataset.graded = "true";
+    const selectedIndex = div.dataset.selected !== undefined ? parseInt(div.dataset.selected, 10) : -1;
+    const correctIndex = examQuestions[i].answer;
+    const options = div.querySelectorAll(".option");
+
+    options.forEach((opt, idx) => {
+      opt.disabled = true;
+      if (idx === correctIndex) opt.classList.add("correct");
+      if (idx === selectedIndex && idx !== correctIndex) opt.classList.add("wrong");
+    });
+
+    const oldFeedback = div.querySelector(".feedback");
+    if (oldFeedback) oldFeedback.remove();
+
+    const feedback = document.createElement("div");
+    feedback.className = "feedback";
+
+    if (selectedIndex === correctIndex) {
+      correct++;
+      feedback.innerHTML = "✔ Correcta. " + examQuestions[i].explanation;
+    } else if (selectedIndex === -1) {
+      feedback.innerHTML = "✖ Sin responder. Respuesta correcta: " + String.fromCharCode(65 + correctIndex) + ". " + examQuestions[i].options[correctIndex] + ". " + examQuestions[i].explanation;
+    } else {
+      feedback.innerHTML = "✖ Incorrecta. Respuesta correcta: " + String.fromCharCode(65 + correctIndex) + ". " + examQuestions[i].options[correctIndex] + ". " + examQuestions[i].explanation;
+    }
+
+    div.appendChild(feedback);
+  });
+
+  document.getElementById("score").textContent = "Nota: " + correct + " / " + questionDivs.length;
+}
+
+function resetExam(){
+  document.getElementById("exam").innerHTML = "";
+  document.getElementById("score").textContent = "";
+}
+
+document.getElementById("applyBtn").addEventListener("click", startExam);
+document.getElementById("gradeBtn").addEventListener("click", gradeExam);
+document.getElementById("resetBtn").addEventListener("click", resetExam);
+
+startExam();
+</script>
 </body>
 </html>
