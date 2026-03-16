@@ -1,33 +1,28 @@
 
-# Literatura Medieval — App de estudio (3º ESO)
+# Literatura Medieval — Recuperación 3º ESO
 
-Versión 7 de la aplicación educativa.
+Este paquete está pensado para recuperar una página que se quedó en blanco.
 
-## Incluye
-- Modo examen funcional
-- Selección de respuestas visual
-- Corrección automática
-- Nota final
-- Diseño simple para móvil
+## Archivos incluidos
+- index.html
+- style.css
+- data.js
+- app.js
+- README.md
 
-## Archivos del proyecto
-index.html  
-style.css  
-data.js  
-app.js  
-README.md  
+## Qué hace
+- genera un examen simple
+- deja marcar la opción elegida
+- corrige bien / mal
+- muestra la nota
+- no depende de módulos complejos
 
-## Cómo subir a GitHub
+## Cómo subirlo a GitHub
+1. Borra los archivos antiguos del repositorio.
+2. Sube estos 5 archivos en la raíz.
+3. Haz Commit changes.
+4. Espera unos segundos.
+5. Recarga con Ctrl + F5.
 
-1. Entra en tu repositorio.
-2. Sube los 5 archivos.
-3. Haz **Commit changes**.
-4. Abre la página y recarga con **Ctrl + F5**.
-
-## Uso
-
-1. Elige número de preguntas.
-2. Pulsa **Aplicar**.
-3. Responde.
-4. Pulsa **Corregir examen** para ver la nota.
-
+## Importante
+Si sigue saliendo una página en blanco, el problema suele ser caché del navegador o que GitHub siga sirviendo una versión anterior.

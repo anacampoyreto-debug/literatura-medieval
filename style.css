@@ -1,31 +1,98 @@
 
 body{
-font-family:Arial;
-background:#f5efe3;
-margin:0;
-padding:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f5efe3;
+  margin:0;
+  padding:20px;
+  color:#2d241c;
 }
 .container{
-max-width:900px;
-margin:auto;
-background:white;
-padding:20px;
-border-radius:10px;
+  max-width:900px;
+  margin:auto;
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 8px 24px rgba(0,0,0,.08);
 }
+h1{
+  margin-top:0;
+  color:#2f4c63;
+}
+.intro{
+  color:#6d6358;
+}
+.controls{
+  margin:20px 0;
+  padding:16px;
+  border:1px solid #ddd;
+  border-radius:10px;
+  background:#faf7f0;
+}
+label{
+  display:block;
+  margin-bottom:8px;
+  font-weight:700;
+}
+input{
+  width:120px;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+.buttons{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:12px;
+}
+button{
+  padding:10px 14px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  background:#8c433d;
+  color:#fff;
+  font-weight:700;
+}
+button:nth-child(1){background:#b8924b;}
+button:nth-child(3){background:#6d6358;}
 .question{
-margin-bottom:20px;
-padding:10px;
-border:1px solid #ddd;
-border-radius:8px;
+  margin:18px 0;
+  padding:16px;
+  border:1px solid #ddd;
+  border-radius:10px;
+  background:#fffdf8;
 }
 .option{
-display:block;
-margin:5px 0;
-padding:8px;
-border-radius:6px;
-cursor:pointer;
-border:1px solid #ccc;
+  display:block;
+  margin:8px 0;
+  padding:10px 12px;
+  border-radius:8px;
+  cursor:pointer;
+  border:1px solid #ccc;
+  background:#fff;
 }
-.option.selected{background:#e7f0ff;}
-.option.correct{background:#c8f7c5;}
-.option.wrong{background:#f7c5c5;}
+.option.selected{
+  background:#e7f0ff;
+  border-color:#8bb0e8;
+}
+.option.correct{
+  background:#c8f7c5;
+  border-color:#81c784;
+}
+.option.wrong{
+  background:#f7c5c5;
+  border-color:#e57373;
+}
+.feedback{
+  margin-top:10px;
+  padding:10px 12px;
+  border-radius:8px;
+  background:#faf7f0;
+  border:1px solid #ddd;
+}
+.score{
+  margin-top:20px;
+  font-size:1.1rem;
+  font-weight:700;
+}
