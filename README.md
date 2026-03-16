@@ -1,28 +1,26 @@
 
-# Literatura Medieval — Recuperación 3º ESO
+# LITERATURA MEDIEVAL — 3º ESO · VERSIÓN 4
 
-Este paquete está pensado para recuperar una página que se quedó en blanco.
+Cambios principales:
+- 15 preguntas por bloque
+- el modo examen ahora marca la opción elegida
+- al corregir el examen general indica ✔ correcta o ✖ incorrecta
+- cada pregunta del examen general muestra explicación
+- se mantienen todos los módulos anteriores
 
-## Archivos incluidos
+## Archivos
 - index.html
 - style.css
-- data.js
 - app.js
-- README.md
+- data.js
 
-## Qué hace
-- genera un examen simple
-- deja marcar la opción elegida
-- corrige bien / mal
-- muestra la nota
-- no depende de módulos complejos
 
-## Cómo subirlo a GitHub
-1. Borra los archivos antiguos del repositorio.
-2. Sube estos 5 archivos en la raíz.
-3. Haz Commit changes.
-4. Espera unos segundos.
-5. Recarga con Ctrl + F5.
+## Versión 5
+- El modo examen ahora marca visualmente la opción elegida antes de corregir.
+- Al corregir, cada pregunta del examen indica ✔ correcta o ✖ incorrecta y muestra explicación.
+- Se mantienen las 15 preguntas por bloque.
 
-## Importante
-Si sigue saliendo una página en blanco, el problema suele ser caché del navegador o que GitHub siga sirviendo una versión anterior.
+
+## Versión 6
+- Se han puesto manejadores directos `onclick` para que el modo examen funcione incluso si fallan los eventos delegados.
+- El botón MODO EXAMEN del menú también navega de forma directa.
