@@ -24,3 +24,9 @@ Archivos listos para subir a GitHub Pages:
 4. En Build and deployment, elige Deploy from a branch.
 5. Selecciona la rama main y la carpeta /root.
 6. Guarda.
+
+
+## Versión revisada
+- Las pestañas del bloque muestran el contenido dentro de la misma tarjeta.
+- Al pulsar una pestaña, la app hace scroll hasta el contenido activo.
+- La sección activa se marca con “ESTÁS EN: ...” para que el alumnado vea claramente dónde está.
